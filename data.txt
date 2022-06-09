@@ -1,0 +1,296 @@
+1	I am going to visit Singapore next week.	Singapore	going	I	next	week.	am	to	visit						
+2	Are you going to visit Singapore next week?	Singapore	going	Are	next	week?	you	to	visit						
+3	I eat ramen every day.	ramen	eat	I	every	day.									
+4	I am going to eat ramen today.	eat	going	I	ramen	today.	am	to							
+5	You are going to go to London.	go	going	You	to	London.	are	to							
+6	Are you going to go to London?	go	going	Are	to	London?	you	to							
+7	I am going to go home early today.	home	going	I	early	today.	am	to	go						
+8	It is going to go rain soon.	go	going	It	rain	soon.	is	to							
+9	Are you going to buy a new computer?	a	going	Are	new	computer?	you	to	buy						
+10	What are you going to do tomorrow?	to	you	What	do	tomorrow?	are	going							
+11	Are you going to leave soon? Yes, I am.	Yes,	to	Are	I	am.	going	leave	soon?	you					
+12	Is Ms. Gray going to live in Japan? No, she’s not.	Japan?	to	Ms.	No,	she’s	going	live	in	Gray	not.	Is			
+13	Are Tom and Ben going to come? Yes, they are.	come?	Ben	Are	Yes,	they	and	going	to	Tom	are.				
+14	What time is this movie going to start? At 6:30 p.m.	start?	movie	time	At	6:30	this	going	to	is	p.m.	What			
+15	Makoto is going to be a little late.	a	going	Makoto	little	late.	is	to	be						
+16	Are you going to go anywhere this weekend?	anywhere	going	Are	this	weekend?	you	to	go						
+17	When are you going to clean your room?	clean	you	When	your	room?	are	going	to						
+18	Sorry, I am going to be a little late!	a	going	Sorry,	little	late!	am	to	be	I					
+19	Is Mom going to go shopping tomorrow?	go	going	Is	shopping	tomorrow?	Mom	to							
+20	It’s going to snow today.	to	going	It’s	snow	today.									
+21	I am not going to eat potato chips today.	potato	going	I	chips	today.	not	to	eat	am					
+22	How long are you going to watch TV?	to	are	How	watch	TV?	long	you	going						
+23	Do you want to go to karaoke on Saturday?	karaoke	to	Do	on	Saturday?	want	go	to	you					
+24	Sorry, I am going to go to Grandpa’s house.	to	going	Sorry,	Grandpa’s	house.	am	to	go	I					
+25	How about Sunday?	Sunday?	about	How											
+26	I’m going to practice Tennis in the morning but the afternoon is OK.	the	in	to	afternoon	is	Tennis	the	but	practice	OK.	going	I’m	morning	
+27	Is “golden time” a Japanese-English word?	a	time”	Is	Japanese-English	word?	“golden								
+28	Are there any oversea students in your school?	in	any	Are	your	school?	there	oversea	students						
+29	This is my husband, Paul. Nice to meet you.	to	husband,	This	meet	you.	my	Paul.	Nice	is					
+30	What is your wife like?	your	is	What	wife	like?									
+31	Look abroad.	abroad.	Look												
+32	Enjoy your holidays!	holidays!	your	Enjoy											
+33	I want to experience life in another country.	in	to	I	another	country.	want	experience	life						
+34	Your aunt is a superwoman!	is	aunt	Your	a	superwoman!									
+35	I will make a reservation.	make	will	I	a	reservation.									
+36	Will it rain today? Yes, it will.	Yes,	rain	Will	it	will.	it	today?							
+37	The door will not open.	will	door	The	not	open.									
+38	When will we arrive?	we	will	When	arrive?										
+39	What will happen next?	happen	will	What	next?										
+40	I get off here.	off	get	I	here.										
+41	I will get off here.	get	will	I	off	here.									
+42	It is sunny today.	sunny	is	It	today.										
+43	It will be sunny tomorrow.	be	will	It	sunny	tomorrow.									
+44	I will take a picture.	take	will	I	a	picture.									
+45	You will be a good teacher.	a	be	You	good	teacher.	will								
+46	Water will not come out.	not	will	Water	come	out.									
+47	Will you be at home tomorrow? Yes, I will.	Yes,	at	Will	I	will.	be	home	tomorrow?	you					
+48	Will you be at home tomorrow? No, I will not.	No,	at	Will	I	will	be	home	tomorrow?	you	not.				
+49	Will it rain today? No, it won’t.	No,	rain	Will	it	won’t.	it	today?							
+50	Will it rain today? Yes, it will.	Yes,	rain	Will	it	will.	it	today?							
+51	What time will the festival start?	the	will	What	festival	start?	time								
+52	It will start at 5 p.m.	at	start	It	5	p.m.	will								
+53	I will be fourteen the day after tomorrow.	day	be	I	after	tomorrow.	will	fourteen	the						
+54	I won’t tell anyone about this.	anyone	tell	I	about	this.	won’t								
+55	Will it snow tonight?	snow	it	Will	tonight?										
+56	How long will it take to the station?	to	will	How	the	station?	long	it	take						
+57	I will open it!	open	will	I	it!										
+58	He will be a good player.	a	be	He	good	player.	will								
+59	I’ll come at four tomorrow.	at	come	I’ll	four	tomorrow.									
+60	Hot water won’t come out.	won’t	water	Hot	come	out.									
+61	How long will this last?	will	long	How	this	last?									
+62	This is my recommendation list.	my	is	This	recommendation	list.									
+63	I'll see the garden in Ginkaku-ji Temple.	in	the	I'll	Ginkaku-ji	Temple.	see	garden							
+64	I'll enjoy the view from Kiyomizu-dera Temple.	from	the	I'll	Kiyomizu-dera	Temple.	enjoy	view							
+65	I’d like to make a reservation for two tonight.	for	make	I’d	two	tonight.	to	a	reservation	like					
+66	Do you like shrimp? Well, I don’t like seafood.	don’t	shrimp?	Do	like	seafood.	like	Well,	I	you					
+67	I can’t cook. It’s OK. I’ll teach you.	I’ll	cook.	I	teach	you.	can’t	It’s	OK.						
+68	It will be rainy all day tomorrow.	all	be	It	day	tomorrow.	will	rainy							
+69	Where are we going to go first?	to	we	Where	go	first?	are	going							
+70	How far is the park? I’m hungry.	park?	is	How	I’m	hungry.	far	the							
+71	You’ll see Merlion soon.	Merlion	see	You’ll	soon.										
+72	Go straight and you’ll find it on your right.	on	you’ll	Go	your	right.	and	find	it	straight					
+73	And after that, let’s eat lunch.	let’s	that,	And	eat	lunch.	after								
+74	I can't wait!	wait!	can't	I											
+75	I will show you the Merlion.	you	show	I	the	Merlion.	will								
+76	I will show the Merlion to you.	Merlion	show	I	to	you.	will	the							
+77	Show your passport to me.	passport	your	Show	to	me.									
+78	Show me your passport.	your	me	Show	passport.										
+79	Can you pass the spoon to me?	spoon	pass	Can	to	me?	you	the							
+80	Can you pass me the spoon?	me	pass	Can	the	spoon?	you								
+81	I will make you breakfast.	make	will	I	you	breakfast.									
+82	Can you show me your notebook?	me	show	Can	your	notebook?	you								
+83	I want to give her a birthday present.	a	to	I	birthday	present.	want	give	her						
+84	I want to give a birthday present to her.	present	give	I	to	her.	to	a	birthday	want					
+85	Mr. Tanaka gives us a lot of homework.	lot	gives	Mr.	of	homework.	Tanaka	us	a						
+86	Can you teach my father English?	my	teach	Can	father	English?	you								
+87	My grandmother made me some hot milk.	some	made	My	hot	milk.	grandmother	me							
+88	Can you send him a message again?	a	send	Can	message	again?	you	him							
+89	Who told you that?	you	told	Who	that?										
+90	Can you show me your textbook?	me	show	Can	your	textbook?	you								
+91	You give us too much homework!	too	us	You	much	homework!	give								
+92	I'll make you some coffee.	you	make	I'll	some	coffee.									
+93	Who gave you that?	you	gave	Who	that?										
+94	Can you send me the picture?	me	send	Can	the	picture?	you								
+95	What does Ms. Taguchi teach you?	Taguchi	Ms.	What	teach	you?	does								
+96	She teaches us science.	us	teaches	She	science.										
+97	What about Mr. Ochiai?	Mr.	about	What	Ochiai?										
+98	He teaches us math.	us	teaches	He	math.										
+99	I’m tired! I’m going to eat some cookies.	eat	I’m	I’m	some	cookies.	tired!	going	to						
+100	What pictures are you taking?	are	pictures	What	you	taking?									
+101	Do you like fish?	like	you	Do	fish?										
+102	How many kilograms make a ton?	make	kilograms	How	a	ton?	many								
+103	How tall are you?	are	tall	How	you?										
+104	Don’t ask me that.	me	ask	Don’t	that.										
+105	The Eiffel Tower is 324 meters tall.	324	Tower	The	meters	tall.	Eiffel	is							
+106	It weighs only 70 grams and fits in your pocket!	fits	70	It	in	your	only	grams	and	weighs	pocket!				
+107	That box is a gift for you.	gift	is	That	for	you.	box	a							
+108	What did you buy?	you	did	What	buy?										
+109	I bought some gifts for everyone.	gifts	some	I	for	everyone.	bought								
+110	Watch your head! Ow!	head!	your	Watch	Ow!										
+111	Please call it the Singapore Flyer.	the	it	Please	Singapore	Flyer.	call								
+112	You call it the Singapore Flyer.	the	it	You	Singapore	Flyer.	call								
+113	Do you call it the Singapore Flyer?	the	call	Do	Singapore	Flyer?	you	it							
+114	What do you call it?	you	do	What	call	it?									
+115	Please call me.	me.	call	Please											
+116	Please call me Nick.	me	call	Please	Nick.										
+117	We named this cat.	this	named	We	cat.										
+118	We named this cat Nala.	this	named	We	cat	Nala.									
+119	I’m Junichi. My teacher calls me Jun.	calls	My	I’m	me	Jun.	Junichi.	teacher							
+120	That’s Benjamin. We call him Ben.	call	We	That’s	him	Ben.	Benjamin.								
+121	These are sweet rice balls. We call them ohagi.	call	rice	These	them	ohagi.	sweet	balls.	We	are					
+122	We call Rebecca Becky.	Rebecca	call	We	Becky.										
+123	In the U.K., they call soccer football.	call	U.K.,	In	soccer	football.	the	they							
+124	What did you name your team?	name	you	What	your	team?	did								
+125	What do you call this food?	call	you	What	this	food?	do								
+126	What do your classmates call you?	classmates	your	What	call	you?	do								
+127	Everyone calls her Gackey.	her	calls	Everyone	Gackey.										
+128	In Japan, we call this Napolitan.	call	we	In	this	Napolitan.	Japan,								
+129	What does your sister call you?	sister	your	What	call	you?	does								
+130	Guess what?!	what?!	Guess												
+131	We got a new family member today!	family	a	We	member	today!	got	new							
+132	Wow, so cute!	cute!	so	Wow,											
+133	What his or her name?	or	his	What	her	name?									
+134	Oh, it’s a girl and her name is Hana.	name	girl	Oh,	is	Hana.	a	and	her	it’s					
+135	We call her Hana-chan.	her	call	We	Hana-chan.										
+136	Japanese culture is really mysterious.	is	culture	Japanese	really	mysterious.									
+137	What is your native language?	your	is	What	native	language?									
+138	Can you communicate with your turtle?	with	communicate	Can	your	turtle?	you								
+139	Did you go anywhere yesterday? I went shopping.	I	go	Did	went	shopping.	you	anywhere	yesterday?						
+140	Please take me with you!	me	take	Please	with	you!									
+141	Singapore English sounds different from American English.	from	sounds	Singapore	American	English.	English	different							
+142	I found this coin on the street.	on	this	I	the	street.	found	coin							
+143	What country’s money is this?	money	country’s	What	is	this?									
+144	We rode this roller coaster that time, too.	that	this	We	time,	too.	rode	roller	coaster						
+145	It was scary, but fun.	scary,	was	It	but	fun.									
+146	I want to ride that Ferris wheel again someday.	wheel	ride	I	again	someday.	to	that	Ferris	want					
+147	Is Asami going to travel abroad? Yes, she is.	Yes,	to	Is	she	is.	going	travel	abroad?	Asami					
+148	What country is Asami going to visit?	going	is	What	to	visit?	country	Asami							
+149	She is going to visit Singapore.	to	going	She	visit	Singapore.	is								
+150	Who is Asami writing to?	Asami	is	Who	writing	to?									
+151	She is writing to Josh.	writing	is	She	to	Josh.									
+152	Where is Asami going to visit first?	to	Asami	Where	visit	first?	is	going							
+153	She is going to visit Merlion Park.	visit	going	She	Merlion	Park.	is	to							
+154	What does Asami want to eat for lunch?	eat	Asami	What	for	lunch?	does	want	to						
+155	She wants to eat seafood.	to	wants	She	eat	seafood.									
+156	What does “Mer” mean?	“Mer”	does	What	mean?										
+157	It means “sea.”	“sea.”	means	It											
+158	What did Asami buy for Josh?	buy	Asami	What	for	Josh?	did								
+159	She bought cookies for him.	cookies	bought	She	for	him.									
+160	What do people call the Ferris wheel?	the	people	What	Ferris	wheel?	do	call							
+161	They call it the Singapore Flyer.	the	it	They	Singapore	Flyer.	call								
+162	What language does Asami’s uncle speak?	Asami’s	does	What	uncle	speak?	language								
+163	He speaks Tamil and English.	Tamil	speaks	He	and	English.									
+164	Does Asami think overseas trips are interesting? Yes, she does.	interesting?	overseas	Does	Yes,	she	think	trips	are	Asami	does.				
+165	I’m going to stay with my aunt in Singapore.	aunt	stay	I’m	in	Singapore.	to	with	my	going					
+166	My aunt will make a reservation.	make	will	My	a	reservation.	aunt								
+167	I bought everyone some gifts.	everyone	bought	I	some	gifts.									
+168	I bought some gifts for everyone.	gifts	some	I	for	everyone.	bought								
+169	People call it the Singapore Flyer.	the	it	People	Singapore	Flyer.	call								
+170	I'm so excited about my first trip abroad.	first	excited	I'm	trip	abroad.	so	about	my						
+171	Do you have any plans for the holidays?	for	have	Do	the	holidays?	you	any	plans						
+172	Is the park far from here?	far	park	Is	from	here?	the								
+173	The Merlion weighs 70 tons.	weighs	Merlion	The	70	tons.									
+174	This movie was very interesting.	was	movie	This	very	interesting.									
+175	There are some gift shops near the park.	near	some	There	the	park.	are	gift	shops						
+176	What is your wife like? She is scary and sometimes kind.	scary	like?	is	and	sometimes	wife	She	is	your	kind.	What			
+177	What are gouging to do tomorrow? I am going to go shopping.	going	tomorrow?	gouging	to	go	do	I	am	to	shopping.	are	What		
+178	Hi, thanks for the e-mail and questions.	e-mail	for	Hi,	and	questions.	thanks	the							
+179	Now I will answer your questions.	answer	will	Now	your	questions.	I								
+180	You’re going to stay at my house for two nights. Is that right?	nights.	my	to	Is	that	at	house	two	stay	right?	going	You’re	for	
+181	Right. On the 11th and 12th of February.	12th	the	Right.	of	February.	On	11th	and						
+182	And we’re going to leave for Osaka in the morning on the 13th.	morning	for	going	on	the	leave	Osaka	the	to	13th.	we’re	And	in	
+183	What time are you going to arrive at Haneda Airport?	arrive	you	What	at	Haneda	are	going	to	time	Airport?				
+184	Our flight is going to arrive at 3:05 p.m.	at	going	Our	3:05	p.m.	is	to	arrive	flight					
+185	So we’ll get to the arrival lobby around four.	lobby	to	So	around	four.	get	the	arrival	we’ll					
+186	My mother will make dinner for you that night.	you	make	My	that	night.	will	dinner	for	mother					
+187	What would you like?	you	would	What	like?										
+188	That's fantastic!	fantastic!	That's												
+189	Then curry will be great for me.	great	will	Then	for	me.	curry	be							
+190	I love Japanese curry!!	Japanese	love	I	curry!!										
+191	Thank you for everything!	for	you	Thank	everything!										
+192	See you soon!	soon!	you	See											
+193	How many nights are Olivia and Luke going to stay at your house?	stay	and	nights	at	your	Olivia	Luke	to	are	house?	many	How	going	
+194	They are going to stay for two nights.	for	going	They	two	nights.	are	to	stay						
+195	Where are Olivia and Luke going to go after leaving your house?	after	going	Olivia	leaving	your	Luke	to	go	and	house?	are	Where		
+196	They are going to go to Osaka.	go	going	They	to	Osaka.	are	to							
+197	My sister eats avocados every day.	avocados	eats	My	every	day.	sister								
+198	My sister is eating avocados right now.	avocados	is	My	right	now.	sister	eating							
+199	Do you use this computer every day?	computer	use	Do	every	day?	you	this							
+200	I don’t read a lot these days.	lot	read	I	these	days.	don’t	a							
+201	I am not reading right now.	reading	not	I	right	now.	am								
+202	Tim took shower an hour ago.	an	shower	Tim	hour	ago.	took								
+203	Tim was taking a shower then.	a	taking	Tim	shower	then.	was								
+204	Did she live in France 10 years ago?	10	live	Did	years	ago?	she	in	France						
+205	Was she living in France then?	in	living	Was	France	then?	she								
+206	I didn’t watch TV those days.	TV	watch	I	those	days.	didn’t								
+207	I wasn’t watching TV then.	watching	wasn’t	I	TV	then.									
+208	We are going to Disneyland right now.	Disneyland	going	We	right	now.	are	to							
+209	We are going to go to Disneyland next Sunday.	Disneyland	to	We	next	Sunday.	going	go	to	are					
+210	I clean my room every day.	room	my	I	every	day.	clean								
+211	I will clean my room tomorrow.	my	clean	I	room	tomorrow.	will								
+212	I have a problem with my room.	with	a	I	my	room.	have	problem							
+213	The air conditioner doesn’t work.	conditioner	air	The	doesn’t	work.									
+214	I apologize for the trouble.	for	apologize	I	the	trouble.									
+215	The room next door is too noisy.	is	next	The	too	noisy.	room	door							
+216	There’s no hot water.	hot	no	There’s	water.										
+217	Could you take care of it, please!	of	take	Could	it,	please!	you	care							
+218	Could I have another blanket, please!	another	have	Could	blanket,	please!	I								
+219	We regret the inconvenience.	the	regret	We	inconvenience.										
+220	Please forgive the delay.	the	forgive	Please	delay.										
+221	The light in the room doesn’t work.	room	in	The	doesn’t	work.	light	the							
+222	Can you check it, please?	check	you	Can	it,	please?									
+223	Do you have any troubles? No, I’m OK now.	I’m	any	Do	OK	now.	have	troubles?	No,	you					
+224	The people next door are all nice.	are	next	The	all	nice.	people	door							
+225	Certainly. I’ll bring it right now.	it	bring	Certainly.	right	now.	I’ll								
+226	I'll be there right away!	there	be	I'll	right	away!									
+227	Every clerk was kind and friendly.	kind	was	Every	and	friendly.	clerk								
+228	We are not guests. Let’s do something.	Let’s	not	We	do	something.	are	guests.							
+229	Can I turn down the air conditioner?	the	turn	Can	air	conditioner?	I	down							
+230	When I watch TV, I see many interesting dishes.	many	TV,	When	interesting	dishes.	watch	I	see	I					
+231	I see many interesting dishes when I watch TV.	I	interesting	I	watch	TV.	many	dishes	when	see					
+232	Wash your hands before you eat.	before	hands	Wash	you	eat.	your								
+233	Let’s watch a movie after we eat dinner.	we	a	Let’s	eat	dinner.	watch	movie	after						
+234	When I am busy, he helps me.	he	am	When	helps	me.	I	busy,							
+235	Please call me when you get up.	you	me	Please	get	up.	call	when							
+236	Have some toast before you go.	before	toast	Have	you	go.	some								
+237	I drink Coke when I eat popcorn.	I	Coke	I	eat	popcorn.	drink	when							
+238	I eat popcorn when I drink Coke.	I	popcorn	I	drink	Coke.	eat	when							
+239	Andy was seven when she came to Japan.	came	seven	Andy	to	Japan.	was	when	she						
+240	Please eat this when you are hungry.	you	this	Please	are	hungry.	eat	when							
+241	I was watching a movie when you called.	when	watching	I	you	called.	was	a	movie						
+242	He started playing the piano when he was three.	he	the	He	was	three.	playing	piano	when	started					
+243	I'll call you when I get off the bus.	off	when	I'll	the	bus.	you	I	get	call					
+244	Brush your teeth before you go to bed.	go	teeth	Brush	to	bed.	your	before	you						
+245	After I finish this, I’m going to read manga.	to	this,	After	read	manga.	finish	I’m	going	I					
+246	What do you do when you can’t sleep?	you	you	What	can’t	sleep?	do	do	when						
+247	When I watch movies, I eat popcorn.	I	watch	When	eat	popcorn.	I	movies,							
+248	I was making burgers when you called.	when	making	I	you	called.	was	burgers							
+249	I'll call you when I got off.	I	you	I'll	got	off.	call	when							
+250	Let's play soccer after we finish this.	we	soccer	Let's	finish	this.	play	after							
+251	What do you do when you’re free?	when	you	What	you’re	free?	do	do							
+252	4 students are happy when they’re eating.	when	are	4	they’re	eating.	students	happy							
+253	5 students are happy when they’re going to bed.	going	happy	5	to	bed.	are	when	they’re	students					
+254	I made this from a recipe.	from	this	I	a	recipe.	made								
+255	Wow! Can I eat it?	I	Can	Wow!	eat	it?									
+256	He even makes spaghetti noodles. Really?	spaghetti	makes	He	noodles.	Really?	even								
+257	Did you hear of the curry bread? What is it?	bread?	of	Did	What	is	hear	the	curry	you	it?				
+258	Is pilaf different from fried rice?	from	different	Is	fried	rice?	pilaf								
+259	I’m sorry, but I can’t hear you well.	hear	but	I’m	you	well.	sorry,	I	can’t						
+260	I heard something. Yeah, me, too.	Yeah,	something.	I	me,	too.	heard								
+261	I have seven kinds of homework today.	of	seven	I	homework	today.	have	kinds							
+262	My mind changes like the weather.	like	changes	My	the	weather.	mind								
+263	If you have time, we can go.	we	have	If	can	go.	you	time,							
+264	We can go if we have time.	we	go	We	have	time.	can	if							
+265	If you have any questions, please ask me.	please	have	If	ask	me.	you	any	questions,						
+266	If it rains tomorrow, what will we do?	will	rains	If	we	do?	it	tomorrow,	what						
+267	If I don’t study, I’ll get a zero.	get	don’t	If	a	zero.	I	study,	I’ll						
+268	If you are cold, you can close the window.	close	cold,	If	the	window.	are	you	can	you					
+269	If you are not busy, can you help me?	you	not	If	help	me?	are	busy,	can	you					
+270	If I don't eat lunch, I can’t do anything in the afternoon.	anything	I	don't	in	the	lunch,	can’t	do	eat	afternoon.	I	If		
+271	If it’s rainy tomorrow, what will we do?	will	rainy	If	we	do?	it’s	tomorrow,	what						
+272	I'll make you a hot dog if you are hungry.	if	a	I'll	you	are	you	hot	dog	make	hungry.				
+273	If she looks busy, please help her.	please	looks	If	help	her.	she	busy,							
+274	If you have any questions, please ask them.	please	have	If	ask	them.	you	any	questions,						
+275	If it's sunny, I’m going to go to the beach.	go	I’m	If	to	the	sunny,	going	to	it's	beach.				
+276	If you have a fever, go home now.	go	have	If	home	now.	you	a	fever,						
+277	You can’t get up if you don’t go to bed early.	go	if	can’t	to	bed	up	you	don’t	get	early.	You			
+278	Can I use this room if you’re not using it now?	not	room	I	using	it	this	if	you’re	use	now?	Can			
+279	Please come to my house today if you like.	if	my	Please	you	like.	to	house	today	come					
+280	If it's sunny, I'm going to jog tomorrow.	to	sunny,	If	jog	tomorrow.	it's	I'm	going						
+281	You eat them if you’re hungry.	if	them	You	you’re	hungry.	eat								
+282	I'll go if you go.	if	go	I'll	you	go.									
+283	We’ll be late if we don’t run!	we	late	We’ll	don’t	run!	be	if							
+284	Please come to my house if you like.	if	to	Please	you	like.	come	my	house						
+285	Let's eat lunch at Midori Park if it’s sunny.	if	at	Let's	it’s	sunny.	lunch	Midori	Park	eat					
+286	Hmmm… if It’s crowded, let’s go to the Sakura River.	to	crowded,	Hmmm…	the	Sakura	It’s	let’s	go	if	River.				
+287	McDonald’s came to Japan in 1971.	Japan	to	McDonald’s	in	1971.	came								
+288	What does this symbol mean?	this	does	What	symbol	mean?									
+289	I finished my homework, you know, so can I…?	so	homework,	I	can	I…?	my	you	know,	finished					
+290	I'll do it sometime. Please do it now.	do	it	I'll	it	now.	do	sometime.	Please						
+291	A new donuts shop opened near our school.	near	donuts	A	our	school.	new	shop	opened						
+292	If you are interested, come to the art room.	the	interested,	If	art	room.	are	come	to	you					
+293	I’m so interested in that story.	in	interested	I’m	that	story.	so								
+294	Well, you’re half right.	half	you’re	Well,	right.										
+295	What about the other half?	the	about	What	other	half?									
+296	I’m originally from Osaka. Everyone knows.	Osaka.	from	I’m	Everyone	knows.	originally								
