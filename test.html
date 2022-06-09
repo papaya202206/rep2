@@ -50,10 +50,10 @@
 
       function set(){
         if(!document.getElementById('num').value){
-          document.getElementById('num').value = 1;
-          num = 0;
+          document.getElementById('num').value = 0;
+          num = -1;
         }else{
-          num =  document.getElementById('num').value - 1;
+          num =  document.getElementById('num').value - 2;
         }
         next();
       }
