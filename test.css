@@ -1,11 +1,10 @@
 @charset "utf-8";
 
 body{
-  background-color:blue;
+  background-color:lightgray;
 -webkit-text-size-adjust: 100%;
 }
 
 a{
-  color:yellow;
-  font-size:25px;
+  font-size:45px;
 }
