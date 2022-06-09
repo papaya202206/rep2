@@ -1,5 +1,6 @@
 @charset "utf-8";
 
 body{
+  bg-color:blue;
 -webkit-text-size-adjust: 400%;
 }
