@@ -12,6 +12,11 @@
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLabel"></h5>
+        <div class="input-group mb-3">
+          <button class="btn btn-outline-secondary" type="button" id="button-addon1" onclick="set">set</button>
+          <input type="number" class="form-control" placeholder="" id="num" aria-describedby="button-addon1">
+        </div>
+        <input type="number" class="form-control" id="num"/>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
@@ -44,7 +49,16 @@
       var num = 0;
       var tmp = [];
 
-
+      function set(){
+        if(!document.getElementById('num').value){
+          document.getElementById('num').value = 1;
+          num = 0;
+        }else{
+          num =  document.getElementById('num').value - 1;
+        }
+        next();
+      }
+    
       function convertCSVtoArray(){ // 読み込んだCSVデータが文字列として渡される
           var result = tmp[num].split('\t');
           txt1 = result[1];
@@ -96,8 +110,10 @@
         document.getElementById('btn-check').className = "btn btn-danger btn-lg";
         document.getElementById('btn-next').className = "btn btn-primary btn-lg d-none";
         num++;
+        document.getElementById('num').value=num + 1;
         if(295<num){
-            num = 0;
+          num = 0;
+          document.getElementById('num').value=num + 1;
         }
         convertCSVtoArray();
       }
