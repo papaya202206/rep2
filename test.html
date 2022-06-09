@@ -9,27 +9,8 @@
       var num = 0;
       var tmp = [];
 
-      function getCSV(){
-          console.info("getCSV")
-          var req = new XMLHttpRequest(); // HTTPでファイルを読み込むためのXMLHttpRrequestオブジェクトを生成
-          req.open("get", "data.csv", true); // アクセスするファイルを指定
-          req.addEventListener('load', {text: req.responseText, handleEvent: convertCSVtoArray});
-          req.send(null); // HTTPリクエストの発行
-
-          // レスポンスが返ってきたらconvertCSVtoArray()を呼ぶ	
-          // req.onload = function(){
-          //   convertCSVtoArray(req.responseText); // 渡されるのは読み込んだCSVデータ
-          // }
-      }
-
-
 
       function convertCSVtoArray(){ // 読み込んだCSVデータが文字列として渡される
-          //var result = []; // 最終的な二次元配列を入れるための配列
-
-
-          // 各行ごとにカンマで区切った文字列を要素とした二次元配列を生成
-          //for(var i=0;i<1;++i){
           var result = tmp[num].split('\t');
           txt1 = result[1];
           document.getElementById('exampleModalLabel').innerText = "No." + result[0] + "/296";
@@ -42,8 +23,6 @@
             } 
             var col = document.createElement('div');
             col.className='col-md-3'
-            // col.innerText = result[i][j];
-            // row.appendChild(col)
             var but = document.createElement('button');
             but.className = 'btn btn-info btn-lg';
             but.type = 'button';
@@ -57,8 +36,7 @@
             row.appendChild(col);
           }
 
-          document.getElementById('buttonlist').appendChild(row);//.insertBefore(tr, null);
-          //}
+          document.getElementById('buttonlist').appendChild(row);
       }
 
       function check(){
@@ -103,7 +81,6 @@
         document.getElementById('btn-check').className = "btn btn-danger btn-lg";
         document.getElementById('btn-next').className = "btn btn-primary btn-lg d-none";
       }
-      //document.onload = getCSV();
 
       function handleFileSelect(evt) {
         var files = evt.target.files;
@@ -113,17 +90,15 @@
           reader.onload = (
               function(theFile) {
                   return function(e) {
-                      //var span = document.createElement('span');
                       tmp = e.target.result.split("\n"); // 改行を区切り文字として行を要素とした配列を生成
                       convertCSVtoArray();
-                      //document.getElementById('list').insertBefore(span, null);
                   };
               })(f);
           reader.readAsText(f);
         }
       }
 
-      //document.getElementById('files').addEventListener('change', handleFileSelect, false);
+      document.getElementById('files').addEventListener('change', handleFileSelect, false);
     </script>
   </head>
 <body>
@@ -157,9 +132,6 @@
 
 
 <input type="file" id="files" name="files[]" multiple class="btn btn-primary btn-lg"/>
-<!-- output id="list"></output -->
-<table id="list">
-</table>
 
 </body>
 </html>
