@@ -20,9 +20,9 @@
         </div>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
-        <button id="btn-check" type="button" class="btn btn-danger" onclick="check()">Check</button>
-        <button id="btn-next" type="button" class="btn btn-primary d-none" onclick="next()">Next</button>
+        <button type="button" class="btn btn-light btn-lg" data-bs-dismiss="modal">Close</button>
+        <button id="btn-check" type="button" class="btn btn-danger btn-lg" onclick="check()">Check</button>
+        <button id="btn-next" type="button" class="btn btn-primary btn-lg d-none" onclick="next()">Next</button>
       </div>
     </div>
   </div>
@@ -76,11 +76,11 @@
         // col.innerText = result[i][j];
         // row.appendChild(col)
         var but = document.createElement('button');
-        but.className = 'btn btn-info';
+        but.className = 'btn btn-info btn-lg';
         but.type = 'button';
         but.onclick=function(){
           document.getElementById('answer').innerText += " " + this.innerText;
-          this.className = 'btn btn-secondary'
+          this.className = 'btn btn-secondary btn-lg'
           this.disabled = true;
         };
         but.innerText = result[j];
@@ -97,13 +97,13 @@
     if (txt1 == document.getElementById('answer').innerText){
       console.log("same",txt1, document.getElementById('answer').innerText);
       document.getElementById('answer').className = "alert alert-primary";
-      document.getElementById('btn-check').className = "btn btn-danger d-none";
-      document.getElementById('btn-next').className = "btn btn-primary";
+      document.getElementById('btn-check').className = "btn btn-danger btn-lg d-none";
+      document.getElementById('btn-next').className = "btn btn-primary btn-lg";
     }else{
       console.log("different",txt1, document.getElementById('answer').innerText);
       document.getElementById('answer').className = "alert alert-danger";
-      document.getElementById('btn-check').className = "btn btn-danger";
-      document.getElementById('btn-next').className = "btn btn-primary d-none";
+      document.getElementById('btn-check').className = "btn btn-danger btn-lg";
+      document.getElementById('btn-next').className = "btn btn-primary btn-lg d-none";
     }
   }
 
@@ -111,8 +111,8 @@
     document.getElementById('buttonlist').innerHTML = "";
     document.getElementById('answer').innerText = "";
     document.getElementById('answer').className = "alert alert-light";
-    document.getElementById('btn-check').className = "btn btn-danger";
-    document.getElementById('btn-next').className = "btn btn-primary d-none";
+    document.getElementById('btn-check').className = "btn btn-danger btn-lg";
+    document.getElementById('btn-next').className = "btn btn-primary btn-lg d-none";
     num++;
     if(295<num){
         num = 0;
@@ -125,14 +125,14 @@
     var elems = document.getElementsByClassName('btn btn-secondary');
     while(0<elems.length){
       elems[0].disabled = false;
-      elems[0].className = 'btn btn-info';
+      elems[0].className = 'btn btn-info btn-lg';
     }
 
-    document.getElementsByClassName('btn btn-secondary').className = 'btn btn-info';
+    document.getElementsByClassName('btn btn-secondary').className = 'btn btn-info btn-lg';
     document.getElementById('answer').innerText = "";
     document.getElementById('answer').className = "alert alert-light";
-    document.getElementById('btn-check').className = "btn btn-danger";
-    document.getElementById('btn-next').className = "btn btn-primary d-none";
+    document.getElementById('btn-check').className = "btn btn-danger btn-lg";
+    document.getElementById('btn-next').className = "btn btn-primary btn-lg d-none";
   }
   //document.onload = getCSV();
 
