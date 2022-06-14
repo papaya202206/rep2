@@ -13,7 +13,7 @@ function loadSyakaiXml(){
             const jsonObj = JSON.parse(xhr.responseText);      
 
             for (let item of jsonObj) {        
-                console.log("question: " + item.question + " options: " + item.options + " answers: " + item.answers);        
+                console.log("context: " + item.context + " options: " + item.options + " answers: " + item.answers);        
             }
     
         }  
