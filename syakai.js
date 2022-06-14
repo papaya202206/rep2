@@ -50,7 +50,7 @@ function setQuestion(num) {
             this.className = 'btn btn-secondary btn-lg'
             this.disabled = true;
         };
-        but.innerText = question.options[j];
+        but.innerText = question.options[j].option;
         col.appendChild(but);
         row.appendChild(col);
     }
