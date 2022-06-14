@@ -14,7 +14,7 @@ function loadSyakaiXml(){
                         console.log("option:" + options[j].textContent);
                     }
                     var answers = items[i].getElementsByTagName("answer");
-                    for (k = 0; k < options.length; k++) {
+                    for (k = 0; k <  answers.length; k++) {
                         console.log("answer:" + answers[k].textContent);
                     }
                 }
