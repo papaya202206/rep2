@@ -33,7 +33,12 @@ function setQuestion() {
     document.getElementById('buttonlist').innerHTML = "";
     document.getElementById('answer').value = "";
 
+    document.getElementById('number').innerHTML = "問題" + (num+1) + " ";
     document.getElementById('context').innerHTML = question.context;
+
+    var prog = (num/questions.length) * 100;
+    document.getElementById('progress').style = "width: " + prog + "%";
+    document.getElementById('progress').innerHTML = prog + "%";
 
     var row = document.createElement('div');
     row.className='row'
