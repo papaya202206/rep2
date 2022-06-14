@@ -51,7 +51,7 @@ function setQuestion() {
             if (document.getElementById('answer').value == "") {
                 document.getElementById('answer').value = this.innerText;
             }else{
-                document.getElementById('answer').value += "    " + this.innerText;
+                document.getElementById('answer').value += ", " + this.innerText;
             }
             
             this.className = 'btn btn-secondary btn-lg'
@@ -69,7 +69,7 @@ function setQuestion() {
 function check(){
     var question = questions[num];
     var correctAnswers = question.answers;
-    var ans = document.getElementById('answer').value.split("   ");
+    var ans = document.getElementById('answer').value.split(", ");
     var flg = true;
     if (correctAnswers.length == ans.length) {
         for (cor of correctAnswers){
