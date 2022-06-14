@@ -1,4 +1,5 @@
 var questions = [];
+var num = 0;
 function loadSyakaiXml(){
     const xhr = new XMLHttpRequest();
 
@@ -16,20 +17,20 @@ function loadSyakaiXml(){
             for (let item of jsonObj.question) {        
                 console.log("context: " + item.context + " options: " + item.options + " answers: " + item.answers);        
             }
-            setQuestion(0);
+            setQuestion(num);
         }  
     }
 }
 
 function reset(){
-    document.getElementById('buttonlist').innerHTML = "";
-    document.getElementById('answer').innerHTML = "";
+    setQuestion(num);
 }
 
-function setQuestion(num) {
+function setQuestion() {
     var question = questions[num];
 
-    reset();
+    document.getElementById('buttonlist').innerHTML = "";
+    document.getElementById('answer').innerHTML = "";
 
     document.getElementById('context').innerHTML = question.context;
 
@@ -46,7 +47,7 @@ function setQuestion(num) {
         but.className = 'btn btn-info btn-lg';
         but.type = 'button';
         but.onclick = function() {
-            document.getElementById('answer').innerText += " " + this.innerText;
+            document.getElementById('answer').value += " " + this.innerText;
             this.className = 'btn btn-secondary btn-lg'
             this.disabled = true;
         };
