@@ -96,4 +96,6 @@ function check(){
 function next(){
     num++;
     setQuestion();
+    document.getElementById('btn-check').className = "btn btn-warning btn-lg";
+    document.getElementById('btn-next').className = "btn btn-primary btn-lg d-none";
 }
