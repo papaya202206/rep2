@@ -47,7 +47,7 @@ function setQuestion() {
         but.className = 'btn btn-info btn-lg';
         but.type = 'button';
         but.onclick = function() {
-            document.getElementById('answer').value += "¥t" + this.innerText;
+            document.getElementById('answer').value += "    " + this.innerText;
             this.className = 'btn btn-secondary btn-lg'
             this.disabled = true;
         };
