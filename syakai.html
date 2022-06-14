@@ -117,22 +117,25 @@
     </script>
   </head>
 <body>
-  社会
   <div>
     <div class="row">
       <div class="" id="context"> </div>
     </div>
+    <hr/>
     <div class="row">
       <div class="container-fluid" id="buttonlist"></div>
     </div>
+    <hr/>
     <div class="row">
-      <!-- <div class="alert alert-light" role="alert" id="answer" style="font-size:2.5em;"></div>
-      <button type="button" class="btn btn-primary btn-lg" onclick="reset()">✖️</button> -->
-
-      <div class="input-group mb-3">
+      <div class="input-group">
         <input type="text" class="form-control" placeholder="" id="answer" readonly>
         <button class="btn btn-outline-secondary" type="button" id="button-addon2" onclick="reset()">✖️</button>
       </div>
+    </div>
+    <hr/>
+    <div class="row">
+      <button id="btn-check" type="button" class="btn btn-danger btn-lg" onclick="check()">Check</button>
+      <button id="btn-next" type="button" class="btn btn-primary btn-lg d-none" onclick="next()">Next</button>
     </div>
   </div>
 <!--

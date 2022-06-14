@@ -17,13 +17,13 @@ function loadSyakaiXml(){
             for (let item of jsonObj.question) {        
                 console.log("context: " + item.context + " options: " + item.options + " answers: " + item.answers);        
             }
-            setQuestion(num);
+            setQuestion();
         }  
     }
 }
 
 function reset(){
-    setQuestion(num);
+    setQuestion();
 }
 
 function setQuestion() {
@@ -47,7 +47,7 @@ function setQuestion() {
         but.className = 'btn btn-info btn-lg';
         but.type = 'button';
         but.onclick = function() {
-            document.getElementById('answer').value += " " + this.innerText;
+            document.getElementById('answer').value += "¥t" + this.innerText;
             this.className = 'btn btn-secondary btn-lg'
             this.disabled = true;
         };
@@ -57,4 +57,37 @@ function setQuestion() {
     }
 
     document.getElementById('buttonlist').appendChild(row);
+}
+
+
+function check(){
+    var question = questions[num];
+    var correctAnswers = question.answers;
+    var ans = document.getElementById('answer').innerText.split("¥t");
+    var flg = true;
+    if (correctAnswers.length == ans.length) {
+        for (cor of correctAnswers){
+            if (ans.indexOf(cor.answer) < 0){
+                flg = false;
+                break;
+            }
+        }
+    }else{
+        flg = false;
+    }
+    
+    if (flg){
+        document.getElementById('answer').className = "text-primary";
+        document.getElementById('btn-check').className = "btn btn-danger btn-lg d-none";
+        document.getElementById('btn-next').className = "btn btn-primary btn-lg";
+    }else{
+        document.getElementById('answer').className = "text-danger";
+        document.getElementById('btn-check').className = "btn btn-danger btn-lg";
+        document.getElementById('btn-next').className = "btn btn-primary btn-lg d-none";
+    }
+}
+
+function next(){
+    num++;
+    setQuestion();
 }
