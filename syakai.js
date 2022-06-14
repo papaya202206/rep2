@@ -23,6 +23,7 @@ function loadSyakaiXml(){
 }
 
 function reset(){
+    document.getElementById('answer').className = "form-control";
     setQuestion();
 }
 
@@ -82,11 +83,11 @@ function check(){
     }
     
     if (flg){
-        document.getElementById('answer').className = "text-primary";
+        document.getElementById('answer').className = "form-control text-primary";
         document.getElementById('btn-check').className = "btn btn-warning btn-lg d-none";
         document.getElementById('btn-next').className = "btn btn-primary btn-lg";
     }else{
-        document.getElementById('answer').className = "text-danger";
+        document.getElementById('answer').className = "form-control text-danger";
         document.getElementById('btn-check').className = "btn btn-warning btn-lg";
         document.getElementById('btn-next').className = "btn btn-primary btn-lg d-none";
     }
