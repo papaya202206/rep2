@@ -12,7 +12,7 @@ function loadSyakaiXml(){
             // jsonをオブジェクトに変更
             const jsonObj = JSON.parse(xhr.responseText);      
 
-            for (let item of jsonObj) {        
+            for (let item of jsonObj.question) {        
                 console.log("context: " + item.context + " options: " + item.options + " answers: " + item.answers);        
             }
     
