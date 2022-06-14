@@ -14,7 +14,7 @@ function loadSyakaiXml(){
                         console.log("option:" + options[j].textContent);
                     }
                     var answers = items[i].getElementsByTagName("answer");
-                    console.log("option:" + options[j].textContent);
+                    console.log("answer:" + answer[j].textContent);
                 }
             } else {
                 alert("status = " + xmlhttp.status);
