@@ -30,7 +30,7 @@ function setQuestion() {
     var question = questions[num];
 
     document.getElementById('buttonlist').innerHTML = "";
-    document.getElementById('answer').innerHTML = "";
+    document.getElementById('answer').value = "";
 
     document.getElementById('context').innerHTML = question.context;
 
