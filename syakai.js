@@ -31,6 +31,7 @@ function setQuestion(num) {
 
     reset();
 
+    document.getElementById('context').innerHTML = question.context;
 
     var row = document.createElement('div');
     row.className='row'
