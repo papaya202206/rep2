@@ -48,7 +48,7 @@ function setQuestion() {
             continue;
         } 
         var col = document.createElement('div');
-        col.className='col-md-3'
+        col.className='col-md-1'
         var but = document.createElement('button');
         but.className = 'btn btn-info btn-lg';
         but.type = 'button';
