@@ -7,118 +7,127 @@
     <script>
       loadSyakaiXml();
 
-      var txt1 = "";
-      var txt2 = "";
-      var num = 0;
-      var tmp = [];
+      // var txt1 = "";
+      // var txt2 = "";
+      // var num = 0;
+      // var tmp = [];
 
-      function set(){
-        if(!document.getElementById('num').value){
-          document.getElementById('num').value = 0;
-          num = -1;
-        }else{
-          num =  document.getElementById('num').value - 2;
-        }
-        next();
-      }
+      // function set(){
+      //   if(!document.getElementById('num').value){
+      //     document.getElementById('num').value = 0;
+      //     num = -1;
+      //   }else{
+      //     num =  document.getElementById('num').value - 2;
+      //   }
+      //   next();
+      // }
     
-      function convertCSVtoArray(){ // 読み込んだCSVデータが文字列として渡される
-          var result = tmp[num].split('\t');
-          txt1 = result[1];
-          document.getElementById('exampleModalLabel').innerText = "No." + result[0] + "/296";
-          var row = document.createElement('div');
-          row.className='row'
+      // function convertCSVtoArray(){ // 読み込んだCSVデータが文字列として渡される
+      //     var result = tmp[num].split('\t');
+      //     txt1 = result[1];
+      //     document.getElementById('exampleModalLabel').innerText = "No." + result[0] + "/296";
+      //     var row = document.createElement('div');
+      //     row.className='row'
 
-          for(var j=2; j<result.length; j++){
-            if (result[j]=='') {
-              continue;
-            } 
-            var col = document.createElement('div');
-            col.className='col-md-3'
-            var but = document.createElement('button');
-            but.className = 'btn btn-info btn-lg';
-            but.type = 'button';
-            but.onclick=function(){
-              document.getElementById('answer').innerText += " " + this.innerText;
-              this.className = 'btn btn-secondary btn-lg'
-              this.disabled = true;
-            };
-            but.innerText = result[j];
-            col.appendChild(but);
-            row.appendChild(col);
-          }
+      //     for(var j=2; j<result.length; j++){
+      //       if (result[j]=='') {
+      //         continue;
+      //       } 
+      //       var col = document.createElement('div');
+      //       col.className='col-md-3'
+      //       var but = document.createElement('button');
+      //       but.className = 'btn btn-info btn-lg';
+      //       but.type = 'button';
+      //       but.onclick=function(){
+      //         document.getElementById('answer').innerText += " " + this.innerText;
+      //         this.className = 'btn btn-secondary btn-lg'
+      //         this.disabled = true;
+      //       };
+      //       but.innerText = result[j];
+      //       col.appendChild(but);
+      //       row.appendChild(col);
+      //     }
 
-          document.getElementById('buttonlist').appendChild(row);
-      }
+      //     document.getElementById('buttonlist').appendChild(row);
+      // }
 
-      function check(){
-        console.log("check");
-        if (txt1 == document.getElementById('answer').innerText){
-          console.log("same",txt1, document.getElementById('answer').innerText);
-          document.getElementById('answer').className = "alert alert-primary";
-          document.getElementById('btn-check').className = "btn btn-danger btn-lg d-none";
-          document.getElementById('btn-next').className = "btn btn-primary btn-lg";
-        }else{
-          console.log("different",txt1, document.getElementById('answer').innerText);
-          document.getElementById('answer').className = "alert alert-danger";
-          document.getElementById('btn-check').className = "btn btn-danger btn-lg";
-          document.getElementById('btn-next').className = "btn btn-primary btn-lg d-none";
-        }
-      }
+      // function check(){
+      //   console.log("check");
+      //   if (txt1 == document.getElementById('answer').innerText){
+      //     console.log("same",txt1, document.getElementById('answer').innerText);
+      //     document.getElementById('answer').className = "alert alert-primary";
+      //     document.getElementById('btn-check').className = "btn btn-danger btn-lg d-none";
+      //     document.getElementById('btn-next').className = "btn btn-primary btn-lg";
+      //   }else{
+      //     console.log("different",txt1, document.getElementById('answer').innerText);
+      //     document.getElementById('answer').className = "alert alert-danger";
+      //     document.getElementById('btn-check').className = "btn btn-danger btn-lg";
+      //     document.getElementById('btn-next').className = "btn btn-primary btn-lg d-none";
+      //   }
+      // }
 
-      function next(){
-        document.getElementById('buttonlist').innerHTML = "";
-        document.getElementById('answer').innerText = "";
-        document.getElementById('answer').className = "alert alert-light";
-        document.getElementById('btn-check').className = "btn btn-danger btn-lg";
-        document.getElementById('btn-next').className = "btn btn-primary btn-lg d-none";
-        num++;
-        document.getElementById('num').value=num + 1;
-        if(295<num){
-          num = 0;
-          document.getElementById('num').value=num + 1;
-        }
-        convertCSVtoArray();
-      }
+      // function next(){
+      //   document.getElementById('buttonlist').innerHTML = "";
+      //   document.getElementById('answer').innerText = "";
+      //   document.getElementById('answer').className = "alert alert-light";
+      //   document.getElementById('btn-check').className = "btn btn-danger btn-lg";
+      //   document.getElementById('btn-next').className = "btn btn-primary btn-lg d-none";
+      //   num++;
+      //   document.getElementById('num').value=num + 1;
+      //   if(295<num){
+      //     num = 0;
+      //     document.getElementById('num').value=num + 1;
+      //   }
+      //   convertCSVtoArray();
+      // }
 
-      function clearAnswer(){
-        console.log("clear");
-        var elems = document.getElementsByClassName('btn btn-secondary');
-        while(0<elems.length){
-          elems[0].disabled = false;
-          elems[0].className = 'btn btn-info btn-lg';
-        }
+      // function clearAnswer(){
+      //   console.log("clear");
+      //   var elems = document.getElementsByClassName('btn btn-secondary');
+      //   while(0<elems.length){
+      //     elems[0].disabled = false;
+      //     elems[0].className = 'btn btn-info btn-lg';
+      //   }
 
-        document.getElementsByClassName('btn btn-secondary').className = 'btn btn-info btn-lg';
-        document.getElementById('answer').innerText = "";
-        document.getElementById('answer').className = "alert alert-light";
-        document.getElementById('btn-check').className = "btn btn-danger btn-lg";
-        document.getElementById('btn-next').className = "btn btn-primary btn-lg d-none";
-      }
+      //   document.getElementsByClassName('btn btn-secondary').className = 'btn btn-info btn-lg';
+      //   document.getElementById('answer').innerText = "";
+      //   document.getElementById('answer').className = "alert alert-light";
+      //   document.getElementById('btn-check').className = "btn btn-danger btn-lg";
+      //   document.getElementById('btn-next').className = "btn btn-primary btn-lg d-none";
+      // }
 
-      function handleFileSelect(evt) {
-        var files = evt.target.files;
-        var output = [];
-        for (var i = 0, f; f = files[i]; i++) {
-          var reader = new FileReader();
-          reader.onload = (
-              function(theFile) {
-                  return function(e) {
-                      tmp = e.target.result.split("\n"); // 改行を区切り文字として行を要素とした配列を生成
-                      convertCSVtoArray();
-                  };
-              })(f);
-          reader.readAsText(f);
-        }
-      }
+      // function handleFileSelect(evt) {
+      //   var files = evt.target.files;
+      //   var output = [];
+      //   for (var i = 0, f; f = files[i]; i++) {
+      //     var reader = new FileReader();
+      //     reader.onload = (
+      //         function(theFile) {
+      //             return function(e) {
+      //                 tmp = e.target.result.split("\n"); // 改行を区切り文字として行を要素とした配列を生成
+      //                 convertCSVtoArray();
+      //             };
+      //         })(f);
+      //     reader.readAsText(f);
+      //   }
+      // }
 
-      //document.getElementById('files').addEventListener('change', handleFileSelect, false);
+      // //document.getElementById('files').addEventListener('change', handleFileSelect, false);
 
     </script>
   </head>
 <body>
   社会
-  <div id="output"></div>
+  <div>
+    <div class="row">
+      <div class="container-fluid" id="buttonlist"></div>
+    </div>  
+    <hr/>
+    <div class="row">
+      <div class="alert alert-light" role="alert" id="answer" style="font-size:2.5em;"></div>
+      <button type="button" class="btn btn-primary btn-lg" onclick="reset()">✖️</button>
+    </div>
+  </div>
 <!--
   <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Start</button>
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">

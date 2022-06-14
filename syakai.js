@@ -1,3 +1,4 @@
+var questions = [];
 function loadSyakaiXml(){
     const xhr = new XMLHttpRequest();
 
@@ -11,41 +12,47 @@ function loadSyakaiXml(){
         if (xhr.readyState == 4 && xhr.status == 200) {
             // jsonをオブジェクトに変更
             const jsonObj = JSON.parse(xhr.responseText);      
-
+            questions = jsonObj.question;
             for (let item of jsonObj.question) {        
                 console.log("context: " + item.context + " options: " + item.options + " answers: " + item.answers);        
             }
-    
+            setQuestion(0);
         }  
     }
+}
+
+function reset(){
+    document.getElementById('buttonlist').innerHTML = "";
+    document.getElementById('answer').innerHTML = "";
+}
+
+function setQuestion(num) {
+    var question = questions[num];
+
+    reset();
 
 
+    var row = document.createElement('div');
+    row.className='row'
 
-    // var xmlhttp = new XMLHttpRequest();
+    for(var j=0; j<question.options.length; j++){
+        if (question.options[j]=='') {
+            continue;
+        } 
+        var col = document.createElement('div');
+        col.className='col-md-3'
+        var but = document.createElement('button');
+        but.className = 'btn btn-info btn-lg';
+        but.type = 'button';
+        but.onclick = function() {
+            document.getElementById('answer').innerText += " " + this.innerText;
+            this.className = 'btn btn-secondary btn-lg'
+            this.disabled = true;
+        };
+        but.innerText = question.options[j];
+        col.appendChild(but);
+        row.appendChild(col);
+    }
 
-    // xmlhttp.onreadystatechange = function () {
-    //     if (xmlhttp.readyState == 4) {
-    //         if (xmlhttp.status == 200) {
-    //             var docelem = xmlhttp.responseXML.documentElement;
-    //             var items = docelem.getElementsByTagName("item");
-    //             for (i = 0; i < items.length; i++) {
-    //                 var question = items[i].getElementsByTagName("question");
-    //                 console.log("question:" + question[0].textContent);
-    //                 var options = items[i].getElementsByTagName("option");
-    //                 for (j = 0; j < options.length; j++) {
-    //                     console.log("option:" + options[j].textContent);
-    //                 }
-    //                 var answers = items[i].getElementsByTagName("answer");
-    //                 for (k = 0; k <  answers.length; k++) {
-    //                     console.log("answer:" + answers[k].textContent);
-    //                 }
-    //             }
-    //         } else {
-    //             alert("status = " + xmlhttp.status);
-    //         }
-    //     }
-    // }
-    // xmlhttp.open("GET", "syakai.xml");
-    // //xmlhttp.responseType = "document";
-    // xmlhttp.send();
+    document.getElementById('buttonlist').appendChild(row);
 }
