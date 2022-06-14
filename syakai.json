@@ -107,12 +107,12 @@
                 {"option":"沖縄県"}
             ],
             "answers":[
-                {"option":"青森県"},
-                {"option":"岩手県"},
-                {"option":"秋田県"},
-                {"option":"宮城県"},
-                {"option":"山形県"},
-                {"option":"福島県"}
+                {"answer":"青森県"},
+                {"answer":"岩手県"},
+                {"answer":"秋田県"},
+                {"answer":"宮城県"},
+                {"answer":"山形県"},
+                {"answer":"福島県"}
             ]
         },
 
@@ -168,13 +168,13 @@
                 {"option":"沖縄県"}
             ],
             "answers":[
-                {"option":"茨城県"},
-                {"option":"栃木県"},
-                {"option":"群馬県"},
-                {"option":"千葉県"},
-                {"option":"埼玉県"},
-                {"option":"東京都"},
-                {"option":"神奈川県"}
+                {"answer":"茨城県"},
+                {"answer":"栃木県"},
+                {"answer":"群馬県"},
+                {"answer":"千葉県"},
+                {"answer":"埼玉県"},
+                {"answer":"東京都"},
+                {"answer":"神奈川県"}
             ]
         },
 
@@ -230,15 +230,15 @@
                 {"option":"沖縄県"}
             ],
             "answers":[
-                {"option":"新潟県"},
-                {"option":"富山県"},
-                {"option":"石川県"},
-                {"option":"福井県"},
-                {"option":"山梨県"},
-                {"option":"長野県"},
-                {"option":"岐阜県"},
-                {"option":"静岡県"},
-                {"option":"愛知県"}
+                {"answer":"新潟県"},
+                {"answer":"富山県"},
+                {"answer":"石川県"},
+                {"answer":"福井県"},
+                {"answer":"山梨県"},
+                {"answer":"長野県"},
+                {"answer":"岐阜県"},
+                {"answer":"静岡県"},
+                {"answer":"愛知県"}
             ]
         },
 
@@ -294,13 +294,13 @@
                 {"option":"沖縄県"}
             ],
             "answers":[
-                {"option":"三重県"},
-                {"option":"滋賀県"},
-                {"option":"京都府"},
-                {"option":"奈良県"},
-                {"option":"和歌山県"},
-                {"option":"大阪府"},
-                {"option":"兵庫県"}
+                {"answer":"三重県"},
+                {"answer":"滋賀県"},
+                {"answer":"京都府"},
+                {"answer":"奈良県"},
+                {"answer":"和歌山県"},
+                {"answer":"大阪府"},
+                {"answer":"兵庫県"}
             ]
         },
 
@@ -356,11 +356,11 @@
                 {"option":"沖縄県"}
             ],
             "answers":[
-                {"option":"鳥取県"},
-                {"option":"島根県"},
-                {"option":"岡山県"},
-                {"option":"広島県"},
-                {"option":"山口県"}
+                {"answer":"鳥取県"},
+                {"answer":"島根県"},
+                {"answer":"岡山県"},
+                {"answer":"広島県"},
+                {"answer":"山口県"}
             ]
         },
 
@@ -416,10 +416,10 @@
                 {"option":"沖縄県"}
             ],
             "answers":[
-                {"option":"香川県"},
-                {"option":"徳島県"},
-                {"option":"愛媛県"},
-                {"option":"高知県"}
+                {"answer":"香川県"},
+                {"answer":"徳島県"},
+                {"answer":"愛媛県"},
+                {"answer":"高知県"}
             ]
         },
 
@@ -475,14 +475,14 @@
                 {"option":"沖縄県"}
             ],
             "answers":[
-                {"option":"福岡県"},
-                {"option":"大分県"},
-                {"option":"佐賀県"},
-                {"option":"長崎県"},
-                {"option":"熊本県"},
-                {"option":"宮崎県"},
-                {"option":"鹿児島県"},
-                {"option":"沖縄県"}
+                {"answer":"福岡県"},
+                {"answer":"大分県"},
+                {"answer":"佐賀県"},
+                {"answer":"長崎県"},
+                {"answer":"熊本県"},
+                {"answer":"宮崎県"},
+                {"answer":"鹿児島県"},
+                {"answer":"沖縄県"}
             ]
         },
 
@@ -538,10 +538,10 @@
                 {"option":"沖縄県"}
             ],
             "answers":[
-                {"option":"新潟県"},
-                {"option":"富山県"},
-                {"option":"石川県"},
-                {"option":"福井県"}
+                {"answer":"新潟県"},
+                {"answer":"富山県"},
+                {"answer":"石川県"},
+                {"answer":"福井県"}
             ]
         },
 
@@ -597,9 +597,9 @@
                 {"option":"沖縄県"}
             ],
             "answers":[
-                {"option":"山梨県"},
-                {"option":"長野県"},
-                {"option":"岐阜県"}
+                {"answer":"山梨県"},
+                {"answer":"長野県"},
+                {"answer":"岐阜県"}
             ]
         },
 
@@ -655,10 +655,10 @@
                 {"option":"沖縄県"}
             ],
             "answers":[
-                {"option":"静岡県"},
-                {"option":"愛知県"},
-                {"option":"岐阜県"},
-                {"option":"三重県"}
+                {"answer":"静岡県"},
+                {"answer":"愛知県"},
+                {"answer":"岐阜県"},
+                {"answer":"三重県"}
             ]
         },
 
@@ -714,9 +714,9 @@
                 {"option":"沖縄県"}
             ],
             "answers":[
-                {"option":"鳥取県"},
-                {"option":"島根県"},
-                {"option":"山口県"}
+                {"answer":"鳥取県"},
+                {"answer":"島根県"},
+                {"answer":"山口県"}
             ]
         },
 
@@ -772,9 +772,9 @@
                 {"option":"沖縄県"}
             ],
             "answers":[
-                {"option":"岡山県"},
-                {"option":"広島県"},
-                {"option":"山口県"}
+                {"answer":"岡山県"},
+                {"answer":"広島県"},
+                {"answer":"山口県"}
             ]
         },
 
@@ -882,14 +882,14 @@
                 {"option":"沖縄県"}
             ],
             "answers":[
-                {"option":"栃木県"},
-                {"option":"群馬県"},
-                {"option":"埼玉県"},
-                {"option":"山梨県"},
-                {"option":"長野県"},
-                {"option":"岐阜県"},
-                {"option":"滋賀県"},
-                {"option":"奈良県"}
+                {"answer":"栃木県"},
+                {"answer":"群馬県"},
+                {"answer":"埼玉県"},
+                {"answer":"山梨県"},
+                {"answer":"長野県"},
+                {"answer":"岐阜県"},
+                {"answer":"滋賀県"},
+                {"answer":"奈良県"}
             ]
         },
 
