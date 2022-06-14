@@ -8,7 +8,7 @@ function loadSyakaiXml(){
                 var items = docelem.getElementsByTagName("item");
                 for (i = 0; i < items.length; i++) {
                     var question = items[i].getElementsByTagName("question");
-                    console.log("question:" + question.question);
+                    console.log("question:" + question[0].textContent);
                     var options = items[i].getElementsByTagName("option");
                     for (j = 0; j < options.length; j++) {
                         console.log("option:" + options[j].textContent);
