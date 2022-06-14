@@ -1,0 +1,14 @@
+{
+    "question":[
+        {
+            "context":"日本の首都は？",
+            "options":[{"option":"北海道"},{"option":"京都府"},{"option":"大阪府"},{"option":"新宿区"},{"option":"東京都"}],
+            "answers":[{"answer":"東京都"}]
+        },
+        {
+            "context":"新潟県はどこの地方に入る？",
+            "options":[{"option":"北海道地方"},{"option":"関東地方"},{"option":"中部地方"},{"option":"四国地方"},{"option":"北陸地方"}],
+            "answers":[{"answer":"中部地方"},{"answer":"北陸地方"}]
+        }
+    ]
+}

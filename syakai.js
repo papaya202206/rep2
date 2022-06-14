@@ -2,7 +2,7 @@ function loadSyakaiXml(){
     const xhr = new XMLHttpRequest();
 
     // リクエスト
-    xhr.open("GET", 'syakai.xml');
+    xhr.open("GET", 'syakai.json');
     
     //リクエスト送信
     xhr.send();
