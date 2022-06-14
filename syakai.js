@@ -69,7 +69,7 @@ function setQuestion() {
 function check(){
     var question = questions[num];
     var correctAnswers = question.answers;
-    var ans = document.getElementById('answer').value.split("¥t");
+    var ans = document.getElementById('answer').value.split("   ");
     var flg = true;
     if (correctAnswers.length == ans.length) {
         for (cor of correctAnswers){
