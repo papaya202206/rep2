@@ -78,11 +78,11 @@ function check(){
     
     if (flg){
         document.getElementById('answer').className = "text-primary";
-        document.getElementById('btn-check').className = "btn btn-danger btn-lg d-none";
+        document.getElementById('btn-check').className = "btn btn-warning btn-lg d-none";
         document.getElementById('btn-next').className = "btn btn-primary btn-lg";
     }else{
         document.getElementById('answer').className = "text-danger";
-        document.getElementById('btn-check').className = "btn btn-danger btn-lg";
+        document.getElementById('btn-check').className = "btn btn-warning btn-lg";
         document.getElementById('btn-next').className = "btn btn-primary btn-lg d-none";
     }
 }
