@@ -56,7 +56,7 @@ function setQuestion() {
 
         if (j % 5 == 0) {
             group = document.createElement('div');
-            group.className = 'btn-group';
+            group.className = 'btn-group col-3';
             row.appendChild(group);
         }
         //var col = document.createElement('div');
