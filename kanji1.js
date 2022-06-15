@@ -33,7 +33,7 @@ function setQuestion() {
     document.getElementById('buttonlist').innerHTML = "";
     document.getElementById('answer').value = "";
 
-    document.getElementById('number').innerHTML = "もんだい" + (num+1) + " ";
+    document.getElementById('number').innerHTML = "もんだい " + (num+1);
     document.getElementById('context').innerHTML = question.context;
 
     var prog = (num/questions.length) * 100;
@@ -59,9 +59,6 @@ function setQuestion() {
             group.className = 'btn-group col-2';
             row.appendChild(group);
         }
-        //var col = document.createElement('div');
-        //col.className='col-md-1'
-        //group.appendChild(col);
 
         var but = document.createElement('button');
         but.className = 'btn btn-outline-info btn-sm';
@@ -73,9 +70,6 @@ function setQuestion() {
                 }else{
                     document.getElementById('answer').value += this.innerText;
                 }
-                
-                this.className = 'btn btn-outline-secondary btn-sm'
-                this.disabled = true;
             }
         };
         but.innerText = question.options[j].option;
@@ -105,11 +99,11 @@ function check(){
     }
     
     if (flg){
-        document.getElementById('answer').className = "form-control text-primary";
+        document.getElementById('answer').className = "form-control bg-primary";
         document.getElementById('btn-check').className = "btn btn-warning btn-lg d-none";
         document.getElementById('btn-next').className = "btn btn-primary btn-lg";
     }else{
-        document.getElementById('answer').className = "form-control text-danger";
+        document.getElementById('answer').className = "form-control bg-danger";
         document.getElementById('btn-check').className = "btn btn-warning btn-lg";
         document.getElementById('btn-next').className = "btn btn-primary btn-lg d-none";
     }
