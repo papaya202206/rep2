@@ -115,6 +115,7 @@ function next(){
         num = 0;
     }
     setQuestion();
+    document.getElementById('answer').className = "form-control";
     document.getElementById('btn-check').className = "btn btn-warning btn-lg";
     document.getElementById('btn-next').className = "btn btn-primary btn-lg d-none";
 }
