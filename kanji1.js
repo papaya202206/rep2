@@ -64,7 +64,7 @@ function setQuestion() {
         //group.appendChild(col);
 
         var but = document.createElement('button');
-        but.className = 'btn btn-outline-info';
+        but.className = 'btn btn-outline-info btn-sm';
         but.type = 'button';
         but.onclick = function() {
             if (this.innerText != "ー") {
@@ -74,7 +74,7 @@ function setQuestion() {
                     document.getElementById('answer').value += this.innerText;
                 }
                 
-                this.className = 'btn btn-outline-secondary'
+                this.className = 'btn btn-outline-secondary btn-sm'
                 this.disabled = true;
             }
         };
