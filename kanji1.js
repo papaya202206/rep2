@@ -67,14 +67,16 @@ function setQuestion() {
         but.className = 'btn btn-outline-info btn-lg';
         but.type = 'button';
         but.onclick = function() {
-            if (document.getElementById('answer').value == "") {
-                document.getElementById('answer').value = this.innerText;
-            }else{
-                document.getElementById('answer').value += this.innerText;
+            if (this.innerText != " ") {
+                if (document.getElementById('answer').value == "") {
+                    document.getElementById('answer').value = this.innerText;
+                }else{
+                    document.getElementById('answer').value += this.innerText;
+                }
+                
+                this.className = 'btn btn-outline-secondary btn-lg'
+                this.disabled = true;
             }
-            
-            this.className = 'btn btn-outline-secondary btn-lg'
-            this.disabled = true;
         };
         but.innerText = question.options[j].option;
         group.appendChild(but);
