@@ -98,6 +98,231 @@
             "answers":[
                 {"answer":"い"},{"answer":"っ"}
             ]
+        },
+
+        {
+            "context":"うわ！クリーパーが 二ひき わいた！",
+            "options":[
+                {"option":"あ"},{"option":"い"},{"option":"う"},{"option":"え"},{"option":"お"},
+                {"option":"か"},{"option":"き"},{"option":"く"},{"option":"け"},{"option":"こ"},
+                {"option":"さ"},{"option":"し"},{"option":"す"},{"option":"せ"},{"option":"そ"},
+                {"option":"た"},{"option":"ち"},{"option":"つ"},{"option":"て"},{"option":"と"},
+                {"option":"な"},{"option":"に"},{"option":"ぬ"},{"option":"ね"},{"option":"の"},
+                {"option":"は"},{"option":"ひ"},{"option":"ふ"},{"option":"へ"},{"option":"ほ"},
+                {"option":"ま"},{"option":"み"},{"option":"む"},{"option":"め"},{"option":"も"},
+                {"option":"や"},{"option":"ー"},{"option":"ゆ"},{"option":"ー"},{"option":"よ"},
+                {"option":"ら"},{"option":"り"},{"option":"る"},{"option":"れ"},{"option":"ろ"},
+                {"option":"わ"},{"option":"を"},{"option":"ん"},{"option":"ー"},{"option":"ー"},
+                {"option":"ゃ"},{"option":"ゅ"},{"option":"ょ"},{"option":"っ"},{"option":"ー"},
+                {"option":"が"},{"option":"ぎ"},{"option":"ぐ"},{"option":"げ"},{"option":"ご"},
+                {"option":"ざ"},{"option":"じ"},{"option":"ず"},{"option":"ぜ"},{"option":"ぞ"},
+                {"option":"だ"},{"option":"ぢ"},{"option":"づ"},{"option":"で"},{"option":"ど"},
+                {"option":"ば"},{"option":"び"},{"option":"ぶ"},{"option":"べ"},{"option":"ぼ"},
+                {"option":"ぱ"},{"option":"ぴ"},{"option":"ぷ"},{"option":"ぺ"},{"option":"ぽ"}
+            ],
+            "answers":[
+                {"answer":"に"}
+            ]
+        },
+
+        {
+            "context":"りんごを 二つ ひろった！",
+            "options":[
+                {"option":"あ"},{"option":"い"},{"option":"う"},{"option":"え"},{"option":"お"},
+                {"option":"か"},{"option":"き"},{"option":"く"},{"option":"け"},{"option":"こ"},
+                {"option":"さ"},{"option":"し"},{"option":"す"},{"option":"せ"},{"option":"そ"},
+                {"option":"た"},{"option":"ち"},{"option":"つ"},{"option":"て"},{"option":"と"},
+                {"option":"な"},{"option":"に"},{"option":"ぬ"},{"option":"ね"},{"option":"の"},
+                {"option":"は"},{"option":"ひ"},{"option":"ふ"},{"option":"へ"},{"option":"ほ"},
+                {"option":"ま"},{"option":"み"},{"option":"む"},{"option":"め"},{"option":"も"},
+                {"option":"や"},{"option":"ー"},{"option":"ゆ"},{"option":"ー"},{"option":"よ"},
+                {"option":"ら"},{"option":"り"},{"option":"る"},{"option":"れ"},{"option":"ろ"},
+                {"option":"わ"},{"option":"を"},{"option":"ん"},{"option":"ー"},{"option":"ー"},
+                {"option":"ゃ"},{"option":"ゅ"},{"option":"ょ"},{"option":"っ"},{"option":"ー"},
+                {"option":"が"},{"option":"ぎ"},{"option":"ぐ"},{"option":"げ"},{"option":"ご"},
+                {"option":"ざ"},{"option":"じ"},{"option":"ず"},{"option":"ぜ"},{"option":"ぞ"},
+                {"option":"だ"},{"option":"ぢ"},{"option":"づ"},{"option":"で"},{"option":"ど"},
+                {"option":"ば"},{"option":"び"},{"option":"ぶ"},{"option":"べ"},{"option":"ぼ"},
+                {"option":"ぱ"},{"option":"ぴ"},{"option":"ぷ"},{"option":"ぺ"},{"option":"ぽ"}
+            ],
+            "answers":[
+                {"answer":"ふ"}, {"answer":"た"}
+            ]
+        },
+
+        {
+            "context":"エメラルドが あと三つ ひつようだ",
+            "options":[
+                {"option":"あ"},{"option":"い"},{"option":"う"},{"option":"え"},{"option":"お"},
+                {"option":"か"},{"option":"き"},{"option":"く"},{"option":"け"},{"option":"こ"},
+                {"option":"さ"},{"option":"し"},{"option":"す"},{"option":"せ"},{"option":"そ"},
+                {"option":"た"},{"option":"ち"},{"option":"つ"},{"option":"て"},{"option":"と"},
+                {"option":"な"},{"option":"に"},{"option":"ぬ"},{"option":"ね"},{"option":"の"},
+                {"option":"は"},{"option":"ひ"},{"option":"ふ"},{"option":"へ"},{"option":"ほ"},
+                {"option":"ま"},{"option":"み"},{"option":"む"},{"option":"め"},{"option":"も"},
+                {"option":"や"},{"option":"ー"},{"option":"ゆ"},{"option":"ー"},{"option":"よ"},
+                {"option":"ら"},{"option":"り"},{"option":"る"},{"option":"れ"},{"option":"ろ"},
+                {"option":"わ"},{"option":"を"},{"option":"ん"},{"option":"ー"},{"option":"ー"},
+                {"option":"ゃ"},{"option":"ゅ"},{"option":"ょ"},{"option":"っ"},{"option":"ー"},
+                {"option":"が"},{"option":"ぎ"},{"option":"ぐ"},{"option":"げ"},{"option":"ご"},
+                {"option":"ざ"},{"option":"じ"},{"option":"ず"},{"option":"ぜ"},{"option":"ぞ"},
+                {"option":"だ"},{"option":"ぢ"},{"option":"づ"},{"option":"で"},{"option":"ど"},
+                {"option":"ば"},{"option":"び"},{"option":"ぶ"},{"option":"べ"},{"option":"ぼ"},
+                {"option":"ぱ"},{"option":"ぴ"},{"option":"ぷ"},{"option":"ぺ"},{"option":"ぽ"}
+            ],
+            "answers":[
+                {"answer":"み"}, {"answer":"っ"}
+            ]
+        },
+
+        {
+            "context":"このイヌは 三さい だ",
+            "options":[
+                {"option":"あ"},{"option":"い"},{"option":"う"},{"option":"え"},{"option":"お"},
+                {"option":"か"},{"option":"き"},{"option":"く"},{"option":"け"},{"option":"こ"},
+                {"option":"さ"},{"option":"し"},{"option":"す"},{"option":"せ"},{"option":"そ"},
+                {"option":"た"},{"option":"ち"},{"option":"つ"},{"option":"て"},{"option":"と"},
+                {"option":"な"},{"option":"に"},{"option":"ぬ"},{"option":"ね"},{"option":"の"},
+                {"option":"は"},{"option":"ひ"},{"option":"ふ"},{"option":"へ"},{"option":"ほ"},
+                {"option":"ま"},{"option":"み"},{"option":"む"},{"option":"め"},{"option":"も"},
+                {"option":"や"},{"option":"ー"},{"option":"ゆ"},{"option":"ー"},{"option":"よ"},
+                {"option":"ら"},{"option":"り"},{"option":"る"},{"option":"れ"},{"option":"ろ"},
+                {"option":"わ"},{"option":"を"},{"option":"ん"},{"option":"ー"},{"option":"ー"},
+                {"option":"ゃ"},{"option":"ゅ"},{"option":"ょ"},{"option":"っ"},{"option":"ー"},
+                {"option":"が"},{"option":"ぎ"},{"option":"ぐ"},{"option":"げ"},{"option":"ご"},
+                {"option":"ざ"},{"option":"じ"},{"option":"ず"},{"option":"ぜ"},{"option":"ぞ"},
+                {"option":"だ"},{"option":"ぢ"},{"option":"づ"},{"option":"で"},{"option":"ど"},
+                {"option":"ば"},{"option":"び"},{"option":"ぶ"},{"option":"べ"},{"option":"ぼ"},
+                {"option":"ぱ"},{"option":"ぴ"},{"option":"ぷ"},{"option":"ぺ"},{"option":"ぽ"}
+            ],
+            "answers":[
+                {"answer":"さ"}, {"answer":"ん"}
+            ]
+        },
+
+        {
+            "context":"あのこたちは 三つご だ",
+            "options":[
+                {"option":"あ"},{"option":"い"},{"option":"う"},{"option":"え"},{"option":"お"},
+                {"option":"か"},{"option":"き"},{"option":"く"},{"option":"け"},{"option":"こ"},
+                {"option":"さ"},{"option":"し"},{"option":"す"},{"option":"せ"},{"option":"そ"},
+                {"option":"た"},{"option":"ち"},{"option":"つ"},{"option":"て"},{"option":"と"},
+                {"option":"な"},{"option":"に"},{"option":"ぬ"},{"option":"ね"},{"option":"の"},
+                {"option":"は"},{"option":"ひ"},{"option":"ふ"},{"option":"へ"},{"option":"ほ"},
+                {"option":"ま"},{"option":"み"},{"option":"む"},{"option":"め"},{"option":"も"},
+                {"option":"や"},{"option":"ー"},{"option":"ゆ"},{"option":"ー"},{"option":"よ"},
+                {"option":"ら"},{"option":"り"},{"option":"る"},{"option":"れ"},{"option":"ろ"},
+                {"option":"わ"},{"option":"を"},{"option":"ん"},{"option":"ー"},{"option":"ー"},
+                {"option":"ゃ"},{"option":"ゅ"},{"option":"ょ"},{"option":"っ"},{"option":"ー"},
+                {"option":"が"},{"option":"ぎ"},{"option":"ぐ"},{"option":"げ"},{"option":"ご"},
+                {"option":"ざ"},{"option":"じ"},{"option":"ず"},{"option":"ぜ"},{"option":"ぞ"},
+                {"option":"だ"},{"option":"ぢ"},{"option":"づ"},{"option":"で"},{"option":"ど"},
+                {"option":"ば"},{"option":"び"},{"option":"ぶ"},{"option":"べ"},{"option":"ぼ"},
+                {"option":"ぱ"},{"option":"ぴ"},{"option":"ぷ"},{"option":"ぺ"},{"option":"ぽ"}
+            ],
+            "answers":[
+                {"answer":"み"}
+            ]
+        },
+
+        {
+            "context":"ひよこが 四わ うまれた",
+            "options":[
+                {"option":"あ"},{"option":"い"},{"option":"う"},{"option":"え"},{"option":"お"},
+                {"option":"か"},{"option":"き"},{"option":"く"},{"option":"け"},{"option":"こ"},
+                {"option":"さ"},{"option":"し"},{"option":"す"},{"option":"せ"},{"option":"そ"},
+                {"option":"た"},{"option":"ち"},{"option":"つ"},{"option":"て"},{"option":"と"},
+                {"option":"な"},{"option":"に"},{"option":"ぬ"},{"option":"ね"},{"option":"の"},
+                {"option":"は"},{"option":"ひ"},{"option":"ふ"},{"option":"へ"},{"option":"ほ"},
+                {"option":"ま"},{"option":"み"},{"option":"む"},{"option":"め"},{"option":"も"},
+                {"option":"や"},{"option":"ー"},{"option":"ゆ"},{"option":"ー"},{"option":"よ"},
+                {"option":"ら"},{"option":"り"},{"option":"る"},{"option":"れ"},{"option":"ろ"},
+                {"option":"わ"},{"option":"を"},{"option":"ん"},{"option":"ー"},{"option":"ー"},
+                {"option":"ゃ"},{"option":"ゅ"},{"option":"ょ"},{"option":"っ"},{"option":"ー"},
+                {"option":"が"},{"option":"ぎ"},{"option":"ぐ"},{"option":"げ"},{"option":"ご"},
+                {"option":"ざ"},{"option":"じ"},{"option":"ず"},{"option":"ぜ"},{"option":"ぞ"},
+                {"option":"だ"},{"option":"ぢ"},{"option":"づ"},{"option":"で"},{"option":"ど"},
+                {"option":"ば"},{"option":"び"},{"option":"ぶ"},{"option":"べ"},{"option":"ぼ"},
+                {"option":"ぱ"},{"option":"ぴ"},{"option":"ぷ"},{"option":"ぺ"},{"option":"ぽ"}
+            ],
+            "answers":[
+                {"answer":"よ"},{"answer":"ん"}
+            ]
+        },
+
+        {
+            "context":"四ばん ピッチャー うえすぎかずや",
+            "options":[
+                {"option":"あ"},{"option":"い"},{"option":"う"},{"option":"え"},{"option":"お"},
+                {"option":"か"},{"option":"き"},{"option":"く"},{"option":"け"},{"option":"こ"},
+                {"option":"さ"},{"option":"し"},{"option":"す"},{"option":"せ"},{"option":"そ"},
+                {"option":"た"},{"option":"ち"},{"option":"つ"},{"option":"て"},{"option":"と"},
+                {"option":"な"},{"option":"に"},{"option":"ぬ"},{"option":"ね"},{"option":"の"},
+                {"option":"は"},{"option":"ひ"},{"option":"ふ"},{"option":"へ"},{"option":"ほ"},
+                {"option":"ま"},{"option":"み"},{"option":"む"},{"option":"め"},{"option":"も"},
+                {"option":"や"},{"option":"ー"},{"option":"ゆ"},{"option":"ー"},{"option":"よ"},
+                {"option":"ら"},{"option":"り"},{"option":"る"},{"option":"れ"},{"option":"ろ"},
+                {"option":"わ"},{"option":"を"},{"option":"ん"},{"option":"ー"},{"option":"ー"},
+                {"option":"ゃ"},{"option":"ゅ"},{"option":"ょ"},{"option":"っ"},{"option":"ー"},
+                {"option":"が"},{"option":"ぎ"},{"option":"ぐ"},{"option":"げ"},{"option":"ご"},
+                {"option":"ざ"},{"option":"じ"},{"option":"ず"},{"option":"ぜ"},{"option":"ぞ"},
+                {"option":"だ"},{"option":"ぢ"},{"option":"づ"},{"option":"で"},{"option":"ど"},
+                {"option":"ば"},{"option":"び"},{"option":"ぶ"},{"option":"べ"},{"option":"ぼ"},
+                {"option":"ぱ"},{"option":"ぴ"},{"option":"ぷ"},{"option":"ぺ"},{"option":"ぽ"}
+            ],
+            "answers":[
+                {"answer":"よ"}
+            ]
+        },
+
+        {
+            "context":"まるが 四つ かかれてる",
+            "options":[
+                {"option":"あ"},{"option":"い"},{"option":"う"},{"option":"え"},{"option":"お"},
+                {"option":"か"},{"option":"き"},{"option":"く"},{"option":"け"},{"option":"こ"},
+                {"option":"さ"},{"option":"し"},{"option":"す"},{"option":"せ"},{"option":"そ"},
+                {"option":"た"},{"option":"ち"},{"option":"つ"},{"option":"て"},{"option":"と"},
+                {"option":"な"},{"option":"に"},{"option":"ぬ"},{"option":"ね"},{"option":"の"},
+                {"option":"は"},{"option":"ひ"},{"option":"ふ"},{"option":"へ"},{"option":"ほ"},
+                {"option":"ま"},{"option":"み"},{"option":"む"},{"option":"め"},{"option":"も"},
+                {"option":"や"},{"option":"ー"},{"option":"ゆ"},{"option":"ー"},{"option":"よ"},
+                {"option":"ら"},{"option":"り"},{"option":"る"},{"option":"れ"},{"option":"ろ"},
+                {"option":"わ"},{"option":"を"},{"option":"ん"},{"option":"ー"},{"option":"ー"},
+                {"option":"ゃ"},{"option":"ゅ"},{"option":"ょ"},{"option":"っ"},{"option":"ー"},
+                {"option":"が"},{"option":"ぎ"},{"option":"ぐ"},{"option":"げ"},{"option":"ご"},
+                {"option":"ざ"},{"option":"じ"},{"option":"ず"},{"option":"ぜ"},{"option":"ぞ"},
+                {"option":"だ"},{"option":"ぢ"},{"option":"づ"},{"option":"で"},{"option":"ど"},
+                {"option":"ば"},{"option":"び"},{"option":"ぶ"},{"option":"べ"},{"option":"ぼ"},
+                {"option":"ぱ"},{"option":"ぴ"},{"option":"ぷ"},{"option":"ぺ"},{"option":"ぽ"}
+            ],
+            "answers":[
+                {"answer":"よ"},{"answer":"っ"}
+            ]
+        },
+
+        {
+            "context":"じゅういち、じゅううに、じゅうさん、じゅう四",
+            "options":[
+                {"option":"あ"},{"option":"い"},{"option":"う"},{"option":"え"},{"option":"お"},
+                {"option":"か"},{"option":"き"},{"option":"く"},{"option":"け"},{"option":"こ"},
+                {"option":"さ"},{"option":"し"},{"option":"す"},{"option":"せ"},{"option":"そ"},
+                {"option":"た"},{"option":"ち"},{"option":"つ"},{"option":"て"},{"option":"と"},
+                {"option":"な"},{"option":"に"},{"option":"ぬ"},{"option":"ね"},{"option":"の"},
+                {"option":"は"},{"option":"ひ"},{"option":"ふ"},{"option":"へ"},{"option":"ほ"},
+                {"option":"ま"},{"option":"み"},{"option":"む"},{"option":"め"},{"option":"も"},
+                {"option":"や"},{"option":"ー"},{"option":"ゆ"},{"option":"ー"},{"option":"よ"},
+                {"option":"ら"},{"option":"り"},{"option":"る"},{"option":"れ"},{"option":"ろ"},
+                {"option":"わ"},{"option":"を"},{"option":"ん"},{"option":"ー"},{"option":"ー"},
+                {"option":"ゃ"},{"option":"ゅ"},{"option":"ょ"},{"option":"っ"},{"option":"ー"},
+                {"option":"が"},{"option":"ぎ"},{"option":"ぐ"},{"option":"げ"},{"option":"ご"},
+                {"option":"ざ"},{"option":"じ"},{"option":"ず"},{"option":"ぜ"},{"option":"ぞ"},
+                {"option":"だ"},{"option":"ぢ"},{"option":"づ"},{"option":"で"},{"option":"ど"},
+                {"option":"ば"},{"option":"び"},{"option":"ぶ"},{"option":"べ"},{"option":"ぼ"},
+                {"option":"ぱ"},{"option":"ぴ"},{"option":"ぷ"},{"option":"ぺ"},{"option":"ぽ"}
+            ],
+            "answers":[
+                {"answer":"し"}
+            ]
         }
     ]
 }
