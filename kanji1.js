@@ -67,7 +67,7 @@ function setQuestion() {
         but.className = 'btn btn-outline-info btn-lg';
         but.type = 'button';
         but.onclick = function() {
-            if (this.innerText != " ") {
+            if (this.innerText != "-") {
                 if (document.getElementById('answer').value == "") {
                     document.getElementById('answer').value = this.innerText;
                 }else{
