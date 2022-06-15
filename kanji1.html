@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="test.css?1">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="kanji1.js"></script>
+    <script>
+      loadKanji1JSON();
+    </script>
+  </head>
+<body>
+  <div>
+    <div class="row">
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" style="width: 0%" id="progress"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div id="number"></div>
+      <div id="context"></div>
+    </div>
+    <hr/>
+    <div class="row">
+      <div class="container-fluid" id="buttonlist"></div>
+    </div>
+    <hr/>
+    <div class="row">
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="" id="answer" readonly>
+        <button class="btn btn-outline-secondary" type="button" id="button-addon2" onclick="reset()">けしゴム</button>
+      </div>
+    </div>
+    <hr/>
+    <div class="row">
+      <button id="btn-check" type="button" class="btn btn-warning btn-lg" onclick="check()">かくにん</button>
+      <button id="btn-next" type="button" class="btn btn-primary btn-lg d-none" onclick="next()">つぎ</button>
+    </div>
+  </div>
+</body>
+</html>
+

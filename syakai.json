@@ -1006,11 +1006,6 @@
             "answers":[{"answer":"愛知県"}]
         },
         {
-            "context":"名古屋市はどの県の県庁所在地になるか選べ",
-            "options":[{"option":"新潟県"},{"option":"静岡県"},{"option":"愛知県"},{"option":"山梨県"},{"option":"長野県"},{"option":"岐阜県"},{"option":"福井県"},{"option":"石川県"},{"option":"富山県"}],
-            "answers":[{"answer":"愛知県"}]
-        },
-        {
             "context":"新潟県はどこの地方に入る？",
             "options":[{"option":"北海道地方"},{"option":"関東地方"},{"option":"中部地方"},{"option":"四国地方"},{"option":"北陸地方"}],
             "answers":[{"answer":"中部地方"},{"answer":"北陸地方"}]
