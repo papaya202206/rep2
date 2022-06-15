@@ -42,6 +42,7 @@ function setQuestion() {
 
     
     var row;
+    var group;
     for(var j=0; j<question.options.length; j++){
         // if (question.options[j]=='') {
         //     continue;
@@ -53,9 +54,14 @@ function setQuestion() {
             document.getElementById('buttonlist').appendChild(row);
         }
 
-        var col = document.createElement('div');
-        col.className='col-md-1'
-        row.appendChild(col);
+        if (j % 5 == 0) {
+            group = document.createElement('div');
+            group.className = 'btn-group';
+            row.appendChild(group);
+        }
+        //var col = document.createElement('div');
+        //col.className='col-md-1'
+        //group.appendChild(col);
 
         var but = document.createElement('button');
         but.className = 'btn btn-info btn-lg';
@@ -71,7 +77,7 @@ function setQuestion() {
             this.disabled = true;
         };
         but.innerText = question.options[j].option;
-        col.appendChild(but);
+        group.appendChild(but);
     }
 
     
