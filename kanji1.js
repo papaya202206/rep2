@@ -48,7 +48,7 @@ function setQuestion() {
         //     continue;
         // }
 
-        if (j % 10 == 0){
+        if (j % 25 == 0){
             row = document.createElement('div');
             row.className='row'
             document.getElementById('buttonlist').appendChild(row);
@@ -56,7 +56,7 @@ function setQuestion() {
 
         if (j % 5 == 0) {
             group = document.createElement('div');
-            group.className = 'btn-group col-3';
+            group.className = 'btn-group col-2';
             row.appendChild(group);
         }
         //var col = document.createElement('div');
@@ -64,7 +64,7 @@ function setQuestion() {
         //group.appendChild(col);
 
         var but = document.createElement('button');
-        but.className = 'btn btn-info btn-lg';
+        but.className = 'btn btn-outline-info btn-lg';
         but.type = 'button';
         but.onclick = function() {
             if (document.getElementById('answer').value == "") {
@@ -73,7 +73,7 @@ function setQuestion() {
                 document.getElementById('answer').value += this.innerText;
             }
             
-            this.className = 'btn btn-secondary btn-lg'
+            this.className = 'btn btn-outline-secondary btn-lg'
             this.disabled = true;
         };
         but.innerText = question.options[j].option;
