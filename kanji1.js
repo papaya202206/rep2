@@ -43,11 +43,11 @@ function setQuestion() {
     
     var row;
     for(var j=0; j<question.options.length; j++){
-        if (question.options[j]=='') {
-            continue;
-        }
+        // if (question.options[j]=='') {
+        //     continue;
+        // }
 
-        if (j % 5 == 0){
+        if (j % 10 == 0){
             row = document.createElement('div');
             row.className='row'
             document.getElementById('buttonlist').appendChild(row);
