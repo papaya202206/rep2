@@ -90,8 +90,12 @@ function check(){
     var ans = document.getElementById('answer').value;
     var flg = true;
     if (correctAnswers.length == ans.length) {
-        if (correctAnswers.join('') != ans) {
-            console.log(correctAnswers.join(''), ans);
+        var text = "";
+        for(elem of correctAnswers){
+            text += elem.answer;
+        }
+        if (text != ans) {
+            console.log(text, ans);
             flg = false;
         }
     }else{
