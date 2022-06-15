@@ -54,7 +54,7 @@ function setQuestion() {
         }
 
         var col = document.createElement('div');
-        col.className='col-md-2'
+        col.className='col-md-1'
         row.appendChild(col);
 
         var but = document.createElement('button');
