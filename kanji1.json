@@ -72,8 +72,8 @@
 
         {
             "context":"このイヌは 三さい だ",
-            "prefx":"",
-            "sufx":"",
+            "prefx":"このイヌは ",
+            "sufx":"さい だ",
             "kanji":"三",
             "answers":[
                 {"answer":"さ"}, {"answer":"ん"}
@@ -82,8 +82,8 @@
 
         {
             "context":"あのこたちは 三つご だ",
-            "prefx":"",
-            "sufx":"",
+            "prefx":"あのこたちは ",
+            "sufx":"つご だ",
             "kanji":"三",
             "answers":[
                 {"answer":"み"}
@@ -92,8 +92,8 @@
 
         {
             "context":"ひよこが 四わ うまれた",
-            "prefx":"",
-            "sufx":"",
+            "prefx":"ひよこが ",
+            "sufx":"わ うまれた",
             "kanji":"四",
             "answers":[
                 {"answer":"よ"},{"answer":"ん"}
@@ -103,7 +103,7 @@
         {
             "context":"四ばん ピッチャー うえすぎかずや",
             "prefx":"",
-            "sufx":"",
+            "sufx":"ばん ピッチャー うえすぎかずや",
             "kanji":"四",
             "answers":[
                 {"answer":"よ"}
@@ -112,8 +112,8 @@
 
         {
             "context":"まるが 四つ かかれてる",
-            "prefx":"",
-            "sufx":"",
+            "prefx":"まるが ",
+            "sufx":"つ かかれてる",
             "kanji":"四",
             "answers":[
                 {"answer":"よ"},{"answer":"っ"}
@@ -122,7 +122,7 @@
 
         {
             "context":"じゅういち、じゅううに、じゅうさん、じゅう四",
-            "prefx":"",
+            "prefx":"じゅういち、じゅううに、じゅうさん、じゅう",
             "sufx":"",
             "kanji":"四",
             "answers":[
@@ -132,7 +132,7 @@
 
         {
             "context":"じゅういち、じゅううに、じゅうさん、じゅうし、じゅう五",
-            "prefx":"",
+            "prefx":"じゅういち、じゅううに、じゅうさん、じゅうし、じゅう",
             "sufx":"",
             "kanji":"五",
             "answers":[
@@ -143,7 +143,7 @@
         {
             "context":"五つめのとびらを ひらく",
             "prefx":"",
-            "sufx":"",
+            "sufx":"つめのとびらを ひらく",
             "kanji":"五",
             "answers":[
                 {"answer":"い"},{"answer":"つ"}
@@ -153,7 +153,7 @@
         {
             "context":"五かが たんじょうびだ",
             "prefx":"",
-            "sufx":"",
+            "sufx":"かが たんじょうびだ",
             "kanji":"五",
             "answers":[
                 {"answer":"い"},{"answer":"つ"}
@@ -162,8 +162,8 @@
 
         {
             "context":"サイコロのめは 六だった",
-            "prefx":"",
-            "sufx":"",
+            "prefx":"サイコロのめは ",
+            "sufx":"だった",
             "kanji":"六",
             "answers":[
                 {"answer":"ろ"},{"answer":"く"}
@@ -173,7 +173,7 @@
         {
             "context":"六つめの ピラミッドを はっけん！",
             "prefx":"",
-            "sufx":"",
+            "sufx":"つめの ピラミッドを はっけん！",
             "kanji":"六",
             "answers":[
                 {"answer":"む"},{"answer":"っ"}
@@ -183,7 +183,7 @@
         {
             "context":"六か から なつやすみだ！",
             "prefx":"",
-            "sufx":"",
+            "sufx":"か から なつやすみだ！",
             "kanji":"六",
             "answers":[
                 {"answer":"む"},{"answer":"い"}
@@ -193,7 +193,7 @@
         {
             "context":"七か から おやすみだ！",
             "prefx":"",
-            "sufx":"",
+            "sufx":"か から おやすみだ！",
             "kanji":"七",
             "answers":[
                 {"answer":"な"},{"answer":"の"}
@@ -203,7 +203,7 @@
         {
             "context":"七ばんめの むらを はっけん！",
             "prefx":"",
-            "sufx":"",
+            "sufx":"ばんめの むらを はっけん！",
             "kanji":"七",
             "answers":[
                 {"answer":"な"},{"answer":"な"}
@@ -213,7 +213,7 @@
         {
             "context":"七がつは いいてんきでした",
             "prefx":"",
-            "sufx":"",
+            "sufx":"がつは いいてんきでした",
             "kanji":"七",
             "answers":[
                 {"answer":"し"},{"answer":"ち"}
@@ -222,8 +222,8 @@
 
         {
             "context":"ビートルートが 七つ とれた",
-            "prefx":"",
-            "sufx":"",
+            "prefx":"ビートルートが ",
+            "sufx":"つ とれた",
             "kanji":"七",
             "answers":[
                 {"answer":"な"},{"answer":"な"}
@@ -233,7 +233,7 @@
         {
             "context":"八がつ から あつくなる",
             "prefx":"",
-            "sufx":"",
+            "sufx":"がつ から あつくなる",
             "kanji":"八",
             "answers":[
                 {"answer":"は"},{"answer":"ち"}
@@ -243,7 +243,7 @@
         {
             "context":"八かに ささづかしょうがっこうで うんどうかいが　ひらかれる",
             "prefx":"",
-            "sufx":"",
+            "sufx":"かに ささづかしょうがっこうで うんどうかいが　ひらかれる",
             "kanji":"八",
             "answers":[
                 {"answer":"よ"},{"answer":"う"}
@@ -252,8 +252,8 @@
 
         {
             "context":"ケーキを 八つに わける",
-            "prefx":"",
-            "sufx":"",
+            "prefx":"ケーキを ",
+            "sufx":"つに わける",
             "kanji":"八",
             "answers":[
                 {"answer":"や"},{"answer":"っ"}
@@ -262,8 +262,8 @@
 
         {
             "context":"はちの つぎは 九だ",
-            "prefx":"",
-            "sufx":"",
+            "prefx":"はちの つぎは ",
+            "sufx":"だ",
             "kanji":"九",
             "answers":[
                 {"answer":"き"},{"answer":"ゅ"},{"answer":"う"}
@@ -272,8 +272,8 @@
         
         {
             "context":"コナンは 九つめの はんざいを かいけつした",
-            "prefx":"",
-            "sufx":"",
+            "prefx":"コナンは ",
+            "sufx":"つめの はんざいを かいけつした",
             "kanji":"九",
             "answers":[
                 {"answer":"こ"},{"answer":"こ"},{"answer":"の"}
@@ -283,7 +283,7 @@
         {
             "context":"九かには タイの うみで あそんでいるだろう",
             "prefx":"",
-            "sufx":"",
+            "sufx":"かには タイの うみで あそんでいるだろう",
             "kanji":"九",
             "answers":[
                 {"answer":"こ"},{"answer":"こ"},{"answer":"の"}
@@ -292,8 +292,8 @@
         
         {
             "context":"ユウスケは 九九の けいさんを おぼえた",
-            "prefx":"",
-            "sufx":"",
+            "prefx":"ユウスケは ",
+            "sufx":"の けいさんを おぼえた",
             "kanji":"九",
             "answers":[
                 {"answer":"く"},{"answer":"く"}
@@ -303,7 +303,7 @@
         {
             "context":"十かは げつようび だよ",
             "prefx":"",
-            "sufx":"",
+            "sufx":"かは げつようび だよ",
             "kanji":"十",
             "answers":[
                 {"answer":"と"},{"answer":"お"}
@@ -312,7 +312,7 @@
         
         {
             "context":"ごままん十",
-            "prefx":"",
+            "prefx":"ごままん",
             "sufx":"",
             "kanji":"十",
             "answers":[
@@ -323,7 +323,7 @@
         {
             "context":"十さいになる",
             "prefx":"",
-            "sufx":"",
+            "sufx":"さいになる",
             "kanji":"十",
             "answers":[
                 {"answer":"じ"},{"answer":"っ"}
