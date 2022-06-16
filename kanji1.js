@@ -40,29 +40,80 @@ function setQuestion() {
     document.getElementById('progress').style = "width: " + prog + "%";
     document.getElementById('progress').innerHTML = prog + "%";
 
-    
-    var row;
-    var group;
-    for(var j=0; j<question.options.length; j++){
-        // if (question.options[j]=='') {
-        //     continue;
-        // }
+    makeHiraganaBut();
+    // var row;
+    // var group;
+    // for(var j=0; j<question.options.length; j++){
 
-        if (j % 25 == 0){
+    //     if (j % 25 == 0){
+    //         row = document.createElement('div');
+    //         row.className='row';
+    //         document.getElementById('buttonlist').appendChild(row);
+    //     }
+
+    //     if (j % 5 == 0) {
+    //         group = document.createElement('div');
+    //         group.className = 'btn-group col-2';
+    //         row.appendChild(group);
+    //     }
+
+    //     var but = document.createElement('button');
+    //     but.className = 'btn btn-outline-info btn-sm';
+    //     but.type = 'button';
+    //     but.onclick = function() {
+    //         if (this.innerText != "ー") {
+    //             if (document.getElementById('answer').value == "") {
+    //                 document.getElementById('answer').value = this.innerText;
+    //             }else{
+    //                 document.getElementById('answer').value += this.innerText;
+    //             }
+    //         }
+    //     };
+    //     but.innerText = question.options[j].option;
+    //     group.appendChild(but);
+    // }
+}
+
+const hiragana = [
+    'あ','い','う','え','お',
+    'か','き','く','け','こ',
+    'さ','し','す','せ','そ',
+    'た','ち','つ','て','と',
+    'な','に','ぬ','ね','の',
+    'は','ひ','ふ','へ','ほ',
+    'ま','み','む','め','も',
+    'や','ー','ゆ','ー','よ',
+    'ら','り','る','れ','ろ',
+    'わ','を','ん','ー','ー',
+
+    'が','ぎ','ぐ','げ','ご',
+    'ざ','じ','ず','ぜ','ぞ',
+    'だ','ぢ','づ','で','ど',
+    'ば','び','ぶ','べ','ぼ',
+    'ぱ','ぴ','ぷ','ぺ','ぽ',
+    'ゃ','ゅ','ょ','っ','ー',
+];
+var hiraganaBut;
+function makeHiraganaBut(){
+    var row;
+    var butGroup;
+    for(var j=0; j<hiragana.length; j++){
+        if (j % 50 == 0){
             row = document.createElement('div');
-            row.className='row'
+            row.className='row';
             document.getElementById('buttonlist').appendChild(row);
         }
 
         if (j % 5 == 0) {
-            group = document.createElement('div');
-            group.className = 'btn-group col-2';
-            row.appendChild(group);
+            butGroup = document.createElement('div');
+            butGroup.className = 'btn-group-vertical col-1';
+            row.appendChild(butGroup);
         }
 
         var but = document.createElement('button');
         but.className = 'btn btn-outline-info btn-sm';
         but.type = 'button';
+        but.innerText = hiragana[j];
         but.onclick = function() {
             if (this.innerText != "ー") {
                 if (document.getElementById('answer').value == "") {
@@ -72,13 +123,9 @@ function setQuestion() {
                 }
             }
         };
-        but.innerText = question.options[j].option;
-        group.appendChild(but);
+        butGroup.appendChild(but);
     }
-
-    
 }
-
 
 function check(){
     var question = questions[num];
