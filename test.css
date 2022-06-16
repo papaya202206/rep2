@@ -9,3 +9,7 @@ body{
 .btn-lg {
   font-size: 0.8em !important;
 }
+
+.kanji{
+  font-family: "Hannari", serif;
+}
