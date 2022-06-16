@@ -23,7 +23,7 @@ function loadKanji1JSON(){
 }
 
 function reset(){
-    document.getElementById('answer').className = "form-control";
+    document.getElementById('answer').className = "form-control bg-white";
     setQuestion();
 }
 
