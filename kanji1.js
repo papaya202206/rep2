@@ -41,37 +41,6 @@ function setQuestion() {
     document.getElementById('progress').innerHTML = prog + "%";
 
     makeHiraganaBut();
-    // var row;
-    // var group;
-    // for(var j=0; j<question.options.length; j++){
-
-    //     if (j % 25 == 0){
-    //         row = document.createElement('div');
-    //         row.className='row';
-    //         document.getElementById('buttonlist').appendChild(row);
-    //     }
-
-    //     if (j % 5 == 0) {
-    //         group = document.createElement('div');
-    //         group.className = 'btn-group col-2';
-    //         row.appendChild(group);
-    //     }
-
-    //     var but = document.createElement('button');
-    //     but.className = 'btn btn-outline-info btn-sm';
-    //     but.type = 'button';
-    //     but.onclick = function() {
-    //         if (this.innerText != "ー") {
-    //             if (document.getElementById('answer').value == "") {
-    //                 document.getElementById('answer').value = this.innerText;
-    //             }else{
-    //                 document.getElementById('answer').value += this.innerText;
-    //             }
-    //         }
-    //     };
-    //     but.innerText = question.options[j].option;
-    //     group.appendChild(but);
-    // }
 }
 
 const hiragana = [
@@ -86,10 +55,17 @@ const hiragana = [
     'ら','り','る','れ','ろ',
     'わ','を','ん','ー','ー',
 
+    'ー','ー','ー','ー','ー',
     'が','ぎ','ぐ','げ','ご',
     'ざ','じ','ず','ぜ','ぞ',
     'だ','ぢ','づ','で','ど',
+    'ー','ー','ー','ー','ー',
     'ば','び','ぶ','べ','ぼ',
+    'ー','ー','ー','ー','ー',
+    'ー','ー','ー','ー','ー',
+    'ー','ー','ー','ー','ー',
+    'ー','ー','ー','ー','ー',
+
     'ぱ','ぴ','ぷ','ぺ','ぽ',
     'ゃ','ゅ','ょ','っ','ー',
 ];
@@ -98,7 +74,7 @@ function makeHiraganaBut(){
     var row;
     var butGroup;
     for(var j=0; j<hiragana.length; j++){
-        if (j % 50 == 0){
+        if (j == 0 ||  j == 50 || j == 100){
             row = document.createElement('div');
             row.className='row';
             document.getElementById('buttonlist').appendChild(row);
