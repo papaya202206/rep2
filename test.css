@@ -12,5 +12,8 @@ body{
 
 .kanji,#context,#sufx,#prefx,#answer{
   font-family: sans-serif;
+}
+
+.kanji{
   font-size:4.0em;
 }
