@@ -145,12 +145,12 @@ function check(){
     
     if (flg){
         document.getElementById('answer').className = "form-control bg-primary";
-        document.getElementById('btn-check').className = "btn btn-warning btn-lg d-none";
-        document.getElementById('btn-next').className = "btn btn-primary btn-lg";
+        document.getElementById('btn-check').className = "btn btn-outline-warning btn-lg d-none";
+        document.getElementById('btn-next').className = "btn btn-outline-primary btn-lg";
     }else{
         document.getElementById('answer').className = "form-control bg-danger";
-        document.getElementById('btn-check').className = "btn btn-warning btn-lg";
-        document.getElementById('btn-next').className = "btn btn-primary btn-lg d-none";
+        document.getElementById('btn-check').className = "btn btn-outline-warning btn-lg";
+        document.getElementById('btn-next').className = "btn btn-outline-primary btn-lg d-none";
     }
 }
 
@@ -161,6 +161,6 @@ function next(){
     }
     setQuestion();
     document.getElementById('answer').className = "form-control";
-    document.getElementById('btn-check').className = "btn btn-warning btn-lg";
-    document.getElementById('btn-next').className = "btn btn-primary btn-lg d-none";
+    document.getElementById('btn-check').className = "btn btn-outline-warning btn-lg";
+    document.getElementById('btn-next').className = "btn btn-outline-primary btn-lg d-none";
 }
