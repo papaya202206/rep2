@@ -11,22 +11,22 @@
 <body>
   <div class="container">
     <div class="row">
-      <div class="progress">
-        <div class="progress-bar" role="progressbar" style="width: 0%" id="progress"></div>
-      </div>
-    </div>
-    <div class="row">
-      <div id="number"></div>
+      <div id="number" class="badge bg-primary"></div>
       <div id="context"></div>
     </div>
     <div class="row">
       <div class="input-group">
         <span class="input-group-text" id="prefx"></span>
-        <div class="col-1">
+        <div class="col-2">
           <input type="text" class="form-control" placeholder="" id="answer" readonly>
         </div>
         <span class="input-group-text" id="sufx"></span>
         <button class="btn btn-outline-secondary" type="button" id="button-addon2" onclick="reset()">けしゴム</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" style="width: 0%" id="progress"></div>
       </div>
     </div>
     <hr/>
