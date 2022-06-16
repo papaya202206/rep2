@@ -144,7 +144,7 @@ function check(){
     }
     
     if (flg){
-        document.getElementById('answer').className = "form-control bg-primary";
+        //document.getElementById('answer').className = "form-control bg-primary";
         document.getElementById('btn-check').className = "btn btn-outline-warning btn-lg d-none";
         document.getElementById('btn-next').className = "btn btn-outline-primary btn-lg";
         document.getElementById('symbol').className = "far fa-circle text-danger";
@@ -161,7 +161,7 @@ function next(){
         num = 0;
     }
     setQuestion();
-    document.getElementById('answer').className = "form-control";
+    document.getElementById('answer').className = "form-control bg-white";
     document.getElementById('btn-check').className = "btn btn-outline-warning btn-lg";
     document.getElementById('btn-next').className = "btn btn-outline-primary btn-lg d-none";
     document.getElementById('symbol').className = "";
