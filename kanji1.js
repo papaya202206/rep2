@@ -55,17 +55,11 @@ const hiragana = [
     'ら','り','る','れ','ろ',
     'わ','を','ん','ー','ー',
 
-    'ー','ー','ー','ー','ー',
+    
     'が','ぎ','ぐ','げ','ご',
     'ざ','じ','ず','ぜ','ぞ',
     'だ','ぢ','づ','で','ど',
-    'ー','ー','ー','ー','ー',
     'ば','び','ぶ','べ','ぼ',
-    'ー','ー','ー','ー','ー',
-    'ー','ー','ー','ー','ー',
-    'ー','ー','ー','ー','ー',
-    'ー','ー','ー','ー','ー',
-
     'ぱ','ぴ','ぷ','ぺ','ぽ',
     'ゃ','ゅ','ょ','っ','ー',
 ];
@@ -74,7 +68,7 @@ function makeHiraganaBut(){
     var row;
     var butGroup;
     for(var j=0; j<hiragana.length; j++){
-        if (j == 0 ||  j == 50 || j == 100){
+        if (j == 0 ||  j == 50){
             row = document.createElement('div');
             row.className='row';
             document.getElementById('buttonlist').appendChild(row);
