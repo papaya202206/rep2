@@ -56,6 +56,8 @@ function setQuestion() {
         document.getElementById('sufx').className = "input-group-text d-none";
     }
 
+    document.getElementById('kanjiChar').innerHTML = question.kanji;
+
     makeHiraganaBut();
 }
 
