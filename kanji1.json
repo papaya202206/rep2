@@ -44,6 +44,7 @@
             "context":"うわ！クリーパーが 二ひき わいた！",
             "prefx":"うわ！クリーパーが ",
             "sufx":"ひき わいた！",
+            "kanji":"二",
             "answers":[
                 {"answer":"に"}
             ]
@@ -53,6 +54,7 @@
             "context":"りんごを 二つ ひろった！",
             "prefx":"りんごを ",
             "sufx":"つ ひろった！",
+            "kanji":"二",
             "answers":[
                 {"answer":"ふ"}, {"answer":"た"}
             ]
@@ -62,6 +64,7 @@
             "context":"エメラルドが あと三つ ひつようだ",
             "prefx":"エメラルドが あと",
             "sufx":"つ ひつようだ",
+            "kanji":"三",
             "answers":[
                 {"answer":"み"}, {"answer":"っ"}
             ]
@@ -71,6 +74,7 @@
             "context":"このイヌは 三さい だ",
             "prefx":"",
             "sufx":"",
+            "kanji":"三",
             "answers":[
                 {"answer":"さ"}, {"answer":"ん"}
             ]
@@ -80,6 +84,7 @@
             "context":"あのこたちは 三つご だ",
             "prefx":"",
             "sufx":"",
+            "kanji":"三",
             "answers":[
                 {"answer":"み"}
             ]
@@ -89,6 +94,7 @@
             "context":"ひよこが 四わ うまれた",
             "prefx":"",
             "sufx":"",
+            "kanji":"四",
             "answers":[
                 {"answer":"よ"},{"answer":"ん"}
             ]
@@ -98,6 +104,7 @@
             "context":"四ばん ピッチャー うえすぎかずや",
             "prefx":"",
             "sufx":"",
+            "kanji":"四",
             "answers":[
                 {"answer":"よ"}
             ]
@@ -107,6 +114,7 @@
             "context":"まるが 四つ かかれてる",
             "prefx":"",
             "sufx":"",
+            "kanji":"四",
             "answers":[
                 {"answer":"よ"},{"answer":"っ"}
             ]
@@ -116,6 +124,7 @@
             "context":"じゅういち、じゅううに、じゅうさん、じゅう四",
             "prefx":"",
             "sufx":"",
+            "kanji":"四",
             "answers":[
                 {"answer":"し"}
             ]
@@ -125,6 +134,7 @@
             "context":"じゅういち、じゅううに、じゅうさん、じゅうし、じゅう五",
             "prefx":"",
             "sufx":"",
+            "kanji":"五",
             "answers":[
                 {"answer":"ご"}
             ]
@@ -134,6 +144,7 @@
             "context":"五つめのとびらを ひらく",
             "prefx":"",
             "sufx":"",
+            "kanji":"五",
             "answers":[
                 {"answer":"い"},{"answer":"つ"}
             ]
@@ -143,6 +154,7 @@
             "context":"五かが たんじょうびだ",
             "prefx":"",
             "sufx":"",
+            "kanji":"五",
             "answers":[
                 {"answer":"い"},{"answer":"つ"}
             ]
@@ -152,6 +164,7 @@
             "context":"サイコロのめは 六だった",
             "prefx":"",
             "sufx":"",
+            "kanji":"六",
             "answers":[
                 {"answer":"ろ"},{"answer":"く"}
             ]
@@ -161,6 +174,7 @@
             "context":"六つめの ピラミッドを はっけん！",
             "prefx":"",
             "sufx":"",
+            "kanji":"六",
             "answers":[
                 {"answer":"む"},{"answer":"っ"}
             ]
@@ -170,6 +184,7 @@
             "context":"六か から なつやすみだ！",
             "prefx":"",
             "sufx":"",
+            "kanji":"六",
             "answers":[
                 {"answer":"む"},{"answer":"い"}
             ]
@@ -179,6 +194,7 @@
             "context":"七か から おやすみだ！",
             "prefx":"",
             "sufx":"",
+            "kanji":"七",
             "answers":[
                 {"answer":"な"},{"answer":"の"}
             ]
@@ -188,6 +204,7 @@
             "context":"七ばんめの むらを はっけん！",
             "prefx":"",
             "sufx":"",
+            "kanji":"七",
             "answers":[
                 {"answer":"な"},{"answer":"な"}
             ]
@@ -197,6 +214,7 @@
             "context":"七がつは いいてんきでした",
             "prefx":"",
             "sufx":"",
+            "kanji":"七",
             "answers":[
                 {"answer":"し"},{"answer":"ち"}
             ]
@@ -206,6 +224,7 @@
             "context":"ビートルートが 七つ とれた",
             "prefx":"",
             "sufx":"",
+            "kanji":"七",
             "answers":[
                 {"answer":"な"},{"answer":"な"}
             ]
@@ -215,6 +234,7 @@
             "context":"八がつ から あつくなる",
             "prefx":"",
             "sufx":"",
+            "kanji":"八",
             "answers":[
                 {"answer":"は"},{"answer":"ち"}
             ]
@@ -224,6 +244,7 @@
             "context":"八かに ささづかしょうがっこうで うんどうかいが　ひらかれる",
             "prefx":"",
             "sufx":"",
+            "kanji":"八",
             "answers":[
                 {"answer":"よ"},{"answer":"う"}
             ]
@@ -233,6 +254,7 @@
             "context":"ケーキを 八つに わける",
             "prefx":"",
             "sufx":"",
+            "kanji":"八",
             "answers":[
                 {"answer":"や"},{"answer":"っ"}
             ]
@@ -242,6 +264,7 @@
             "context":"はちの つぎは 九だ",
             "prefx":"",
             "sufx":"",
+            "kanji":"九",
             "answers":[
                 {"answer":"き"},{"answer":"ゅ"},{"answer":"う"}
             ]
@@ -251,6 +274,7 @@
             "context":"コナンは 九つめの はんざいを かいけつした",
             "prefx":"",
             "sufx":"",
+            "kanji":"九",
             "answers":[
                 {"answer":"こ"},{"answer":"こ"},{"answer":"の"}
             ]
@@ -260,6 +284,7 @@
             "context":"九かには タイの うみで あそんでいるだろう",
             "prefx":"",
             "sufx":"",
+            "kanji":"九",
             "answers":[
                 {"answer":"こ"},{"answer":"こ"},{"answer":"の"}
             ]
@@ -269,6 +294,7 @@
             "context":"ユウスケは 九九の けいさんを おぼえた",
             "prefx":"",
             "sufx":"",
+            "kanji":"九",
             "answers":[
                 {"answer":"く"},{"answer":"く"}
             ]
@@ -278,6 +304,7 @@
             "context":"十かは げつようび だよ",
             "prefx":"",
             "sufx":"",
+            "kanji":"十",
             "answers":[
                 {"answer":"と"},{"answer":"お"}
             ]
@@ -287,6 +314,7 @@
             "context":"ごままん十",
             "prefx":"",
             "sufx":"",
+            "kanji":"十",
             "answers":[
                 {"answer":"じ"},{"answer":"ゅ"},{"answer":"う"}
             ]
@@ -296,6 +324,7 @@
             "context":"十さいになる",
             "prefx":"",
             "sufx":"",
+            "kanji":"十",
             "answers":[
                 {"answer":"じ"},{"answer":"っ"}
             ]
