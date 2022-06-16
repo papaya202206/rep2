@@ -40,8 +40,21 @@ function setQuestion() {
     document.getElementById('progress').style = "width: " + prog + "%";
     document.getElementById('progress').innerHTML = prog + "%";
 
-    document.getElementById('prefx').innerHTML = question.prefx;
-    document.getElementById('sufx').innerHTML = question.sufx;
+    if (question.prefx != "") {
+        document.getElementById('prefx').innerHTML = question.prefx;
+        document.getElementById('prefx').className = "input-group-text";
+    } else {
+        document.getElementById('prefx').innerHTML = question.prefx;
+        document.getElementById('prefx').className = "input-group-text d-none";
+    }
+
+    if (question.sufx != "") {
+        document.getElementById('sufx').innerHTML = question.sufx;
+        document.getElementById('sufx').className = "input-group-text";
+    } else {
+        document.getElementById('sufx').innerHTML = question.sufx;
+        document.getElementById('sufx').className = "input-group-text d-none";
+    }
 
     makeHiraganaBut();
 }
