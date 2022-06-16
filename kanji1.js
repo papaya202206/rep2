@@ -70,7 +70,7 @@ function makeHiraganaBut(){
     for(var j=0; j<hiragana.length; j++){
         if (j == 0 ||  j == 50){
             row = document.createElement('div');
-            row.className='row';
+            row.className='row justify-content-center';
             document.getElementById('buttonlist').appendChild(row);
         }
 
