@@ -40,6 +40,9 @@ function setQuestion() {
     document.getElementById('progress').style = "width: " + prog + "%";
     document.getElementById('progress').innerHTML = prog + "%";
 
+    document.getElementById('prefx').innerHTML = question.prefx;
+    document.getElementById('sufx').innerHTML = question.sufx;
+
     makeHiraganaBut();
 }
 
