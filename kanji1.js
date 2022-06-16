@@ -76,7 +76,17 @@ function makeHiraganaBut(){
 
         if (j % 5 == 0) {
             butGroup = document.createElement('div');
-            butGroup.className = 'btn-group-vertical col-1';
+            if (j==0){
+                butGroup.className = 'btn-group-vertical col-1 offset-1 gy-4';
+            }else if(j == 50){
+                butGroup.className = 'btn-group-vertical col-1 offset-2 gy-4';
+            }else if(j == 65){
+                butGroup.className = 'btn-group-vertical col-1 offset-1 gy-4';
+            }else if(j == 75){
+                butGroup.className = 'btn-group-vertical col-1 offset-1 gy-4';
+            }else{
+                butGroup.className = 'btn-group-vertical col-1 gy-4';
+            }
             row.appendChild(butGroup);
         }
 
