@@ -11,7 +11,7 @@ body{
 }
 
 .kanji,#context,#sufx,#prefx,#answer{
-  font-family: serif;
+  font-family: "Kokoro", serif;
 }
 
 .kanji{
