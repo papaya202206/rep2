@@ -1,4 +1,5 @@
 var num = 0;
+$(window).on('after load', init());
 
 function init(){
     var obj1 = document.getElementById('buttonlist');
