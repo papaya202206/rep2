@@ -1,7 +1,9 @@
 var num = 0;
 
 function init(){
-    makeSujiBut(document.getElementById('buttonlist'), document.getElementById('answer'));
+    var obj1 = document.getElementById('buttonlist');
+    var obj2 = document.getElementById('answer');
+    makeSujiBut(obj1, obj2);
     setQuestion()
 }
 
