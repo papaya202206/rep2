@@ -2,6 +2,7 @@ var num = 0;
 
 function init(){
     makeSujiBut(document.getElementById('buttonlist'), document.getElementById('answer'));
+    setQuestion()
 }
 
 function start(){
