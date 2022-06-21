@@ -76,9 +76,9 @@ function setQuestion() {
     }
     setInnerHTMLById('context', context);
 
-    var prog = (num/questions.length) * 100;
-    document.getElementById('progress').style = "width: " + prog + "%";
-    document.getElementById('progress').innerHTML = prog + "%";
+    //var prog = (num/questions.length) * 100;
+    //document.getElementById('progress').style = "width: " + prog + "%";
+    //document.getElementById('progress').innerHTML = prog + "%";
 
     // if (question.prefx != "") {
     //     document.getElementById('prefx').innerHTML = question.prefx;
