@@ -1,9 +1,15 @@
 var num = 0;
+var operation = "+";
+var counts = 2;
+var numbers = [];
+var digit = 2;
+var fraction = 0;
+
 $(window).on('after load', init());
 
 function init(){
-    var obj1 = document.getElementById('buttonlist');
-    var obj2 = document.getElementById('answer');
+    var obj1 = $('#buttonlist');
+    var obj2 = $('#answer');
     makeSujiBut(obj1, obj2);
     setQuestion()
 }
@@ -12,31 +18,29 @@ function start(){
     setQuestion();
 }
 
-function setValueById(id, value){
-    document.getElementById(id).value = value;
+function setValue(value){
+    $('#'+id).val(value);
+    //document.getElementById(id).value = value;
 }
 
 function setInnerHTMLById(id, html){
-    document.getElementById(id).innerHTML = html;
+    $('#'+id).html(html);
+    //document.getElementById(id).innerHTML = html;
 }
 
-
-
 function reset(){
-    document.getElementById('answer').className = "form-control bg-white";
+    var obj2 = $('#answer').className = "form-control bg-white";
     setQuestion();
 }
 
-var counts = 2;
-var numbers = [];
+
 function setRandamNumbers(){
     for (var i=0; i<counts; i++){
         numbers[i] = getRandamNumber();
     }
 }
 
-var digit = 2;
-var fraction = 0;
+
 function getRandamNumber(){
     var value = 0;
     if (digit == 1){
@@ -61,11 +65,9 @@ function getRandamNumber(){
 }
 
 
-var operation = "+";
 function setQuestion() {
-    setValueById('answer','');
-
-    setInnerHTMLById('number', '問題' + (num + 1));
+    $('#answer').val('');
+    $('#number').val('問題' + (num + 1));
 
     var context;
     for(var i=0; i<counts; i++){
@@ -74,29 +76,8 @@ function setQuestion() {
             context += operation
         }
     }
-    setInnerHTMLById('context', context);
-
-    //var prog = (num/questions.length) * 100;
-    //document.getElementById('progress').style = "width: " + prog + "%";
-    //document.getElementById('progress').innerHTML = prog + "%";
-
-    // if (question.prefx != "") {
-    //     document.getElementById('prefx').innerHTML = question.prefx;
-    //     document.getElementById('prefx').className = "input-group-text";
-    // } else {
-    //     document.getElementById('prefx').innerHTML = question.prefx;
-    //     document.getElementById('prefx').className = "input-group-text d-none";
-    // }
-
-    // if (question.sufx != "") {
-    //     document.getElementById('sufx').innerHTML = question.sufx;
-    //     document.getElementById('sufx').className = "input-group-text";
-    // } else {
-    //     document.getElementById('sufx').innerHTML = question.sufx;
-    //     document.getElementById('sufx').className = "input-group-text d-none";
-    // }
-
-    // document.getElementById('kanjiChar').innerHTML = question.kanji;
+    $('#number').val('問題' + (num + 1));
+    $('#context').val(context);
 }
 
 function check(){
