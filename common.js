@@ -65,7 +65,7 @@ const suji = [
     '1','2','3','4','5','6','7','8','9','.','0','C'
 ];
 
-function butAction(event){
+function butAction(param1, param2){
     var e =event;
     // if (value == "C") {
     //     obj2.val("");
