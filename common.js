@@ -65,14 +65,14 @@ const suji = [
     '1','2','3','4','5','6','7','8','9','.','0','C'
 ];
 
-function butAction(param1, param2){
-    if (param1 == "C") {
-        param2.val("");
+function butAction(event){
+    if (event.data.param1 == "C") {
+        event.data.param2.val("");
     }else{
-        if (param2.val() == "") {
-            param2.val(param1);
+        if (event.data.param2.val() == "") {
+            event.data.param2.val(event.data.param1);
         }else{
-            param2.val(param2.val() + " " + param1);
+            event.data.param2.val(event.data.param2.val() + " " + event.data.param1);
         }
     }
 }
