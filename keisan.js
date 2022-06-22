@@ -68,7 +68,7 @@ function getRandamNumber(){
 
 function setQuestion() {
     $('#answer').val('');
-    $('#number').val('問題' + (num + 1));
+    $('#number').html('問題' + (num + 1));
 
     setRandamNumbers();
 
@@ -79,8 +79,7 @@ function setQuestion() {
             context += operation
         }
     }
-    $('#number').val('問題' + (num + 1));
-    $('#context').val(context);
+    $('#context').html(context);
 }
 
 function check(){
