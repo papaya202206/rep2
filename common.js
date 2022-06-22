@@ -65,16 +65,17 @@ const suji = [
     '1','2','3','4','5','6','7','8','9','.','0','C'
 ];
 
-function butAction(value, obj2){
-    if (value == "C") {
-        obj2.val("");
-    }else{
-        if (obj2.val() == "") {
-            obj2.val(value);
-        }else{
-            obj2.val(obj2.val() + " " + value);
-        }
-    }
+function butAction(event){
+    var e =event;
+    // if (value == "C") {
+    //     obj2.val("");
+    // }else{
+    //     if (obj2.val() == "") {
+    //         obj2.val(value);
+    //     }else{
+    //         obj2.val(obj2.val() + " " + value);
+    //     }
+    // }
 }
 
 function makeSujiBut(obj1, obj2){
