@@ -66,16 +66,15 @@ const suji = [
 ];
 
 function butAction(param1, param2){
-    var e =event;
-    // if (value == "C") {
-    //     obj2.val("");
-    // }else{
-    //     if (obj2.val() == "") {
-    //         obj2.val(value);
-    //     }else{
-    //         obj2.val(obj2.val() + " " + value);
-    //     }
-    // }
+    if (param1 == "C") {
+        param2.val("");
+    }else{
+        if (param2.val() == "") {
+            param2.val(param1);
+        }else{
+            param2.val(param2.val() + " " + param1);
+        }
+    }
 }
 
 function makeSujiBut(obj1, obj2){
