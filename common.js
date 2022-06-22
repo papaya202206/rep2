@@ -94,7 +94,8 @@ function makeSujiBut(obj1, obj2){
     row1.append(col2);
 
     var col3 = $('<div>', { id:"col3", class:'col'});
-    var but3 = $('<button>', { id:"col3", class:'btn btn-outline-info btn-lg', type:"button", text:"3", onclick:butAction("3",obj2)});
+    var but3 = $('<button>', { id:"col3", class:'btn btn-outline-info btn-lg', type:"button", text:"3"});
+    but3.on('click', {param1:"3", param2:obj2}, butAction);
     col3.append(but3);
     row1.append(col3);
 
@@ -105,17 +106,20 @@ function makeSujiBut(obj1, obj2){
     var row2 = $('<div>', { id:"row2", class:'row g-2' });
     
     var col4 = $('<div>', { id:"col4", class:'col'});
-    var but4 = $('<button>', { id:"but4", class:'btn btn-outline-info btn-lg', type:"button", text:"4", onclick:butAction("4",obj2)});
+    var but4 = $('<button>', { id:"but4", class:'btn btn-outline-info btn-lg', type:"button", text:"4"});
+    but4.on('click', {param1:"4", param2:obj2}, butAction);
     col4.append(but4);
     row2.append(col4);
 
     var col5 = $('<div>', { id:"col5", class:'col'});
-    var but5 = $('<button>', { id:"but5", class:'btn btn-outline-info btn-lg', type:"button", text:"5", onclick:butAction("5",obj2)});
+    var but5 = $('<button>', { id:"but5", class:'btn btn-outline-info btn-lg', type:"button", text:"5"});
+    but5.on('click', {param1:"5", param2:obj2}, butAction);
     col5.append(but5);
     row2.append(col5);
 
     var col6 = $('<div>', { id:"col6", class:'col'});
-    var but6 = $('<button>', { id:"but6", class:'btn btn-outline-info btn-lg', type:"button", text:"6", onclick:butAction("6",obj2)});
+    var but6 = $('<button>', { id:"but6", class:'btn btn-outline-info btn-lg', type:"button", text:"6"});
+    but6.on('click', {param1:"6", param2:obj2}, butAction);
     col6.append(but6);
     row2.append(col6);
 
@@ -125,17 +129,20 @@ function makeSujiBut(obj1, obj2){
     var row3 = $('<div>', { id:"row3", class:'row g-2' });
     
     var col7 = $('<div>', { id:"col7", class:'col'});
-    var but7 = $('<button>', { id:"but7", class:'btn btn-outline-info btn-lg', type:"button", text:"7", onclick:butAction("7",obj2)});
+    var but7 = $('<button>', { id:"but7", class:'btn btn-outline-info btn-lg', type:"button", text:"7"});
+    but7.on('click', {param1:"7", param2:obj2}, butAction);
     col7.append(but7);
     row3.append(col7);
 
     var col8 = $('<div>', { id:"col8", class:'col'});
-    var but8 = $('<button>', { id:"but8", class:'btn btn-outline-info btn-lg', type:"button", text:"8", onclick:butAction("8",obj2)});
+    var but8 = $('<button>', { id:"but8", class:'btn btn-outline-info btn-lg', type:"button", text:"8"});
+    but8.on('click', {param1:"8", param2:obj2}, butAction);
     col8.append(but8);
     row3.append(col8);
 
     var col9 = $('<div>', { id:"col9", class:'col'});
-    var but9 = $('<button>', { id:"but9", class:'btn btn-outline-info btn-lg', type:"button", text:"9", onclick:butAction("9",obj2)});
+    var but9 = $('<button>', { id:"but9", class:'btn btn-outline-info btn-lg', type:"button", text:"9"});
+    but9.on('click', {param1:"9", param2:obj2}, butAction);
     col9.append(but9);
     row3.append(col9);
 
@@ -145,17 +152,20 @@ function makeSujiBut(obj1, obj2){
     var row4 = $('<div>', { id:"row4", class:'row g-2' });
     
     var col10 = $('<div>', { id:"col10", class:'col'});
-    var but10 = $('<button>', { id:"but10", class:'btn btn-outline-info btn-lg', type:"button", text:".", onclick:butAction(".",obj2)});
+    var but10 = $('<button>', { id:"but10", class:'btn btn-outline-info btn-lg', type:"button", text:"."});
+    but10.on('click', {param1:".", param2:obj2}, butAction);
     col10.append(but10);
     row4.append(col10);
 
     var col11 = $('<div>', { id:"col11", class:'col'});
-    var but11 = $('<button>', { id:"but11", class:'btn btn-outline-info btn-lg', type:"button", text:"0", onclick:butAction("0",obj2)});
+    var but11 = $('<button>', { id:"but11", class:'btn btn-outline-info btn-lg', type:"button", text:"0"});
+    but11.on('click', {param1:"0", param2:obj2}, butAction);
     col11.append(but11);
     row4.append(col11);
     
     var col12 = $('<div>', { id:"col12", class:'col'});
-    var but12 = $('<button>', { id:"but12", class:'btn btn-outline-info btn-lg', type:"button", text:"C", onclick:butAction("C",obj2)});
+    var but12 = $('<button>', { id:"but12", class:'btn btn-outline-info btn-lg', type:"button", text:"C"});
+    but12.on('click', {param1:"C", param2:obj2}, butAction);
     col12.append(but12);
     row4.append(col12);
 
