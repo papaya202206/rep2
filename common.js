@@ -82,12 +82,14 @@ function makeSujiBut(obj1, obj2){
     var row1 = $('<div>', { id:"row1", class:'row g-2' });
     
     var col1 = $('<div>', { id:"col1", class:'col'});
-    var but1 = $('<button>', { id:"but1", class:'btn btn-outline-info btn-lg', type:"button", text:"1", onclick:butAction("1",obj2)});
+    var but1 = $('<button>', { id:"but1", class:'btn btn-outline-info btn-lg', type:"button", text:"1"});
+    but1.on('click', {param1:"1", param2:obj2}, butAction);
     col1.append(but1);
     row1.append(col1);
 
     var col2 = $('<div>', { id:"col2", class:'col'});
-    var but2 = $('<button>', { id:"but2", class:'btn btn-outline-info btn-lg', type:"button", text:"2", onclick:butAction("2",obj2)});
+    var but2 = $('<button>', { id:"but2", class:'btn btn-outline-info btn-lg', type:"button", text:"2"});
+    but2.on('click', {param1:"2", param2:obj2}, butAction);
     col2.append(but2);
     row1.append(col2);
 
