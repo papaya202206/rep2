@@ -4,6 +4,7 @@ var counts = 2;
 var numbers = [];
 var digit = 2;
 var fraction = 0;
+var context = "";
 
 $(window).on('after load', init());
 
@@ -71,7 +72,7 @@ function setQuestion() {
 
     setRandamNumbers();
 
-    var context;
+    
     for(var i=0; i<counts; i++){
         context += numbers[i];
         if(i < counts - 1){
