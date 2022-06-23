@@ -18,7 +18,9 @@ function start(){
 }
 
 function reset(){
-    $('#answer').className = "form-control bg-white";
+    $('#answer').removeClass("bg-danger");
+    $('#answer').removeClass("bg-white");
+    $('#answer').val("");
 }
 
 
@@ -69,7 +71,7 @@ function setQuestion() {
     
     for(var i=0; i<counts; i++){
         context += numbers[i];
-        correctAns += numbers[i];
+        correctAns += Int(numbers[i]);
         if(i < counts - 1){
             context += operation
         }
