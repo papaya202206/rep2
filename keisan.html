@@ -30,10 +30,15 @@
               <input type="text" class="form-control bg-white" placeholder="" id="answer" readonly>
             </div>
             <span class="input-group-text" id="sufx"></span>
-            <button class="btn btn-outline-secondary" type="button" id="button-addon2" onclick="reset()"><i class="fas fa-eraser"></i></button>
+            <button class="btn btn-outline-secondary" type="button" id="button-addon2" onclick="reset()">
+              <i class="fas fa-eraser"></i>
+            </button>
           </div>
         </div>
-      </div>      
+      </div>
+      <div class="col-1 kanji">
+        <i id="symbol" class="far fa-circle text-danger d-none"></i>
+      </div>
     </div>
     <div class="row">
       <button id="btn-check" type="button" class="btn btn-outline-warning btn-lg" onclick="check()">かくにん</button>

@@ -9,9 +9,7 @@ var context = "";
 $(window).on('after load', init());
 
 function init(){
-    var obj1 = $('#buttonlist');
-    var obj2 = $('#answer');
-    makeSujiBut(obj1, obj2);
+    makeSujiBut($('#buttonlist'), $('#answer'));
     setQuestion()
 }
 
@@ -19,19 +17,8 @@ function start(){
     setQuestion();
 }
 
-function setValue(value){
-    $('#'+id).val(value);
-    //document.getElementById(id).value = value;
-}
-
-function setInnerHTMLById(id, html){
-    $('#'+id).html(html);
-    //document.getElementById(id).innerHTML = html;
-}
-
 function reset(){
-    var obj2 = $('#answer').className = "form-control bg-white";
-    setQuestion();
+    $('#answer').className = "form-control bg-white";
 }
 
 
@@ -65,16 +52,24 @@ function getRandamNumber(){
     }
 }
 
-
+var correctAns = 0;
 function setQuestion() {
+    correctAns = 0;
+    context = "";
     $('#answer').val('');
     $('#number').html('問題' + (num + 1));
 
+    $('#answer').addClass("bg-white");
+    $('#answer').removeClass("bg-danger");
+    $('#btn-check').removeClass("d-none");
+    $('#btn-next').addClass("d-none");
+    $('#symbol').addClass("d-none");
+    
     setRandamNumbers();
-
     
     for(var i=0; i<counts; i++){
         context += numbers[i];
+        correctAns += numbers[i];
         if(i < counts - 1){
             context += operation
         }
@@ -83,43 +78,26 @@ function setQuestion() {
 }
 
 function check(){
-    var question = questions[num];
-    var correctAnswers = question.answers;
-    var ans = document.getElementById('answer').value;
+    var ans = $('#answer').val();
     var flg = true;
-    if (correctAnswers.length == ans.length) {
-        var text = "";
-        for(elem of correctAnswers){
-            text += elem.answer;
-        }
-        if (text != ans) {
-            console.log(text, ans);
-            flg = false;
-        }
+    if (ans == correctAns){
+        $('#answer').addClass("bg-white");
+        $('#answer').removeClass("bg-danger");
+        $('#btn-check').addClass("d-none");
+        $('#btn-next').removeClass("d-none");
+        $('#symbol').removeClass("d-none");
     }else{
-        flg = false;
-    }
-    
-    if (flg){
-        //document.getElementById('answer').className = "form-control bg-primary";
-        document.getElementById('btn-check').className = "btn btn-outline-warning btn-lg d-none";
-        document.getElementById('btn-next').className = "btn btn-outline-primary btn-lg";
-        document.getElementById('symbol').className = "far fa-circle text-danger";
-    }else{
-        document.getElementById('answer').className = "form-control bg-danger";
-        document.getElementById('btn-check').className = "btn btn-outline-warning btn-lg";
-        document.getElementById('btn-next').className = "btn btn-outline-primary btn-lg d-none";
+        $('#answer').removeClass("bg-white");
+        $('#answer').addClass("bg-danger");
+        $('#btn-check').removeClass("d-none");
+        $('#btn-next').addClass("d-none");
+        $('#symbol').addClass("d-none");
     }
 }
 
 function next(){
     num++;
-    if (num >= questions.length){
-        num = 0;
-    }
+    
     setQuestion();
-    document.getElementById('answer').className = "form-control bg-white";
-    document.getElementById('btn-check').className = "btn btn-outline-warning btn-lg";
-    document.getElementById('btn-next').className = "btn btn-outline-primary btn-lg d-none";
-    document.getElementById('symbol').className = "";
+    
 }

@@ -72,7 +72,7 @@ function butAction(event){
         if (event.data.param2.val() == "") {
             event.data.param2.val(event.data.param1);
         }else{
-            event.data.param2.val(event.data.param2.val() + " " + event.data.param1);
+            event.data.param2.val(event.data.param2.val() + event.data.param1);
         }
     }
 }
