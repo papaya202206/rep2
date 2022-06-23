@@ -5,6 +5,7 @@ var numbers = [];
 var digit = 2;
 var fraction = 0;
 var context = "";
+var correctAns = 0;
 
 $(window).on('after load', init());
 
@@ -54,7 +55,7 @@ function getRandamNumber(){
     }
 }
 
-var correctAns = 0;
+
 function setQuestion() {
     correctAns = 0;
     context = "";
