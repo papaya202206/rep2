@@ -6,21 +6,32 @@ var digit = 2;
 var fraction = 0;
 var context = "";
 var correctAns = 0;
+var timerId;
 
 $(window).on('after load', init());
 
 function init(){
     makeSujiBut($('#buttonlist'), $('#answer'));
-    setQuestion()
+    //setQuestion()
 }
 
 function start(){
+    $('#btn-start').addClass("d-none");
+    num++;
     setQuestion();
+    startTimer();
+}
+
+function next(){
+    num++;
+    setQuestion();
+    startTimer();
 }
 
 function reset(){
     $('#answer').removeClass("bg-danger");
     $('#answer').removeClass("bg-white");
+    $('#symbolng').addClass("d-none");
     $('#answer').val("");
 }
 
@@ -29,6 +40,14 @@ function setRandamNumbers(){
     for (var i=0; i<counts; i++){
         numbers[i] = getRandamNumber();
     }
+}
+
+function startTimer(){
+    timerId = setTimeout(check, 5000);
+}
+
+function resetTimer(){
+    clearTimeout(timerId);
 }
 
 
@@ -67,6 +86,7 @@ function setQuestion() {
     $('#btn-check').removeClass("d-none");
     $('#btn-next').addClass("d-none");
     $('#symbol').addClass("d-none");
+    $('#symbolng').addClass("d-none");
     
     setRandamNumbers();
     
@@ -90,18 +110,15 @@ function check(){
         $('#btn-check').addClass("d-none");
         $('#btn-next').removeClass("d-none");
         $('#symbol').removeClass("d-none");
+        $('#symbolng').addClass("d-none");
+        resetTimer();
     }else{
         $('#answer').removeClass("bg-white");
         $('#answer').addClass("bg-danger");
         $('#btn-check').removeClass("d-none");
         $('#btn-next').addClass("d-none");
         $('#symbol').addClass("d-none");
+        $('#symbolng').removeClass("d-none");
     }
 }
 
-function next(){
-    num++;
-    
-    setQuestion();
-    
-}
