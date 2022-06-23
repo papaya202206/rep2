@@ -71,7 +71,7 @@ function setQuestion() {
     
     for(var i=0; i<counts; i++){
         context += numbers[i];
-        correctAns += Int(numbers[i]);
+        correctAns += parseInt(numbers[i]);
         if(i < counts - 1){
             context += operation
         }
