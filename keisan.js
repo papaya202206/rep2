@@ -74,7 +74,8 @@ function setQuestion() {
             context += operation
         }
     }
-    $('#context').html(context);
+    context += "="
+    $('#prefx').html(context);
 }
 
 function check(){
