@@ -6,9 +6,9 @@ var digit = 2;
 var fraction = 0;
 var context = "";
 var correctAns = 0;
-var timerId;
+//var timerId;
 var intervalId;
-var startTime;
+//var startTime;
 var timeLimit = 5000;
 var interval = 100;
 var progress = 0;
@@ -48,19 +48,23 @@ function setRandamNumbers(){
 }
 
 function startTimer(){
-    startTime = new Date();
-    timerId = setTimeout(check, timeLimit);
+    //startTime = new Date();
+    //timerId = setTimeout(check, timeLimit);
     intervalId = setInterval(setProgress, interval);
 }
 
 function resetTimer(){
-    clearTimeout(timerId);
+    //clearTimeout(timerId);
     clearInterval(intervalId);
 }
 
 function setProgress(){
     progress += interval / timeLimit * 100;
     $('#progress').css('width',100 - progress + "%"); 
+    if (progress >= 100) {
+        resetTimer();
+    }
+    
 }
 
 
