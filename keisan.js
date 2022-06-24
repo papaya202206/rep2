@@ -60,7 +60,7 @@ function resetTimer(){
 
 function setProgress(){
     progress += interval / timeLimit * 100;
-    $('#progress').css('width',progress); 
+    $('#progress').css('width',progress + "%"); 
 }
 
 
