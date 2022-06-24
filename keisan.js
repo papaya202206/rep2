@@ -63,6 +63,7 @@ function setProgress(){
     $('#progress').css('width',100 - progress + "%"); 
     if (progress >= 100) {
         resetTimer();
+        check();
     }
     
 }
