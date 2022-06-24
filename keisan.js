@@ -12,6 +12,7 @@ var intervalId;
 var timeLimit = 5000;
 var interval = 100;
 var progress = 100;
+var count = 5;
 
 $(window).on('after load', init());
 
@@ -60,7 +61,9 @@ function resetTimer(){
 
 function setProgress(){
     progress -= interval / timeLimit * 100;
+    count -= interval / timeLimit;
     $('#progress').css('width', progress + "%"); 
+    $('#progress').html(count);
     if (progress <= 0) {
         resetTimer();
         check();
