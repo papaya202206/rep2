@@ -101,7 +101,7 @@ function setQuestion() {
     $('#symbol').addClass("d-none");
     $('#symbolng').addClass("d-none");
 
-    $('progress').css('width',0);
+    $('#progress').css('width',0);
     
     setRandamNumbers();
     
