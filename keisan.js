@@ -7,6 +7,11 @@ var fraction = 0;
 var context = "";
 var correctAns = 0;
 var timerId;
+var intervalId;
+var startTime;
+var timeLimit = 5000;
+var interval = 100;
+var progress = 0;
 
 $(window).on('after load', init());
 
@@ -43,11 +48,19 @@ function setRandamNumbers(){
 }
 
 function startTimer(){
-    timerId = setTimeout(check, 5000);
+    startTime = new Date();
+    timerId = setTimeout(check, timeLimit);
+    intervalId = setInterval(setProgress, interval);
 }
 
 function resetTimer(){
     clearTimeout(timerId);
+    clearInterval(intervalId);
+}
+
+function setProgress(){
+    progress += interval / timeLimit * 100;
+    $('progress').css('width',progress); 
 }
 
 
@@ -87,6 +100,8 @@ function setQuestion() {
     $('#btn-next').addClass("d-none");
     $('#symbol').addClass("d-none");
     $('#symbolng').addClass("d-none");
+
+    $('progress').css('width',0);
     
     setRandamNumbers();
     
