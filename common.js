@@ -67,12 +67,12 @@ const suji = [
 
 function butAction(event){
     if (event.data.param1 == "C") {
-        event.data.param2.val("");
+        event.data.param2.html("");
     }else{
-        if (event.data.param2.val() == "") {
-            event.data.param2.val(event.data.param1);
+        if (event.data.param2.html() == "") {
+            event.data.param2.html(event.data.param1);
         }else{
-            event.data.param2.val(event.data.param2.val() + event.data.param1);
+            event.data.param2.html(event.data.param2.html() + event.data.param1);
         }
     }
 }
